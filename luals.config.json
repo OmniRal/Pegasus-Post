@@ -1,0 +1,4 @@
+{
+  "typeCheckingMode": "strictNone",
+  "includes": ["**/*.lua"]
+}

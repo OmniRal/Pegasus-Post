@@ -1,0 +1,5 @@
+
+[tools]
+selene = { source = "Kampfkarren/selene", version = "x" }
+rojo = { source = "Quenty/rojo", version = "=7.2.1-quenty-npm-canary.5" }
+wally = { source = "UpliftGames/wally", version = "0.3.1" }

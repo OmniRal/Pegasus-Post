@@ -1,0 +1,5 @@
+{
+  "luau-lsp.sourcemap.enabled": true,
+  "luau-lsp.sourcemap.path": "sourcemap.json",
+  "luau-lsp.typeChecking.mode": "off" // or "nonStrict" if you still want some linting
+}

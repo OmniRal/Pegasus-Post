@@ -1,0 +1,2769 @@
+{
+	"name": "Pegasus-Post",
+	"className": "DataModel",
+	"filePaths": [
+		"default.project.json"
+	],
+	"children": [
+		{
+			"name": "MaterialService",
+			"className": "MaterialService",
+			"children": [
+				{
+					"name": "Materials",
+					"className": "Folder",
+					"children": [
+						{
+							"name": "Rocks",
+							"className": "Folder",
+							"filePaths": [],
+							"children": [
+								{
+									"name": "Canyon_Rock_1",
+									"className": "MaterialVariant",
+									"filePaths": [],
+									"children": [
+										{
+											"name": "Canyon_Rock_1_roughness",
+											"className": "Decal",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Canyon_Rock_1_basecolor",
+											"className": "Decal",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Canyon_Rock_1_normal",
+											"className": "Decal",
+											"filePaths": [],
+											"children": []
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "Metals",
+							"className": "Folder",
+							"filePaths": [],
+							"children": [
+								{
+									"name": "Metal_1",
+									"className": "MaterialVariant",
+									"filePaths": [],
+									"children": [
+										{
+											"name": "Metal_1_metallic",
+											"className": "Decal",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Metal_1_normal",
+											"className": "Decal",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Metal_1_basecolor",
+											"className": "Decal",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Metal_1_roughness",
+											"className": "Decal",
+											"filePaths": [],
+											"children": []
+										}
+									]
+								},
+								{
+									"name": "Metal_2",
+									"className": "MaterialVariant",
+									"filePaths": [],
+									"children": [
+										{
+											"name": "Metal_2_metallic",
+											"className": "Decal",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Metal_2_roughness",
+											"className": "Decal",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Metal_2_basecolor",
+											"className": "Decal",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Metal_2_normal",
+											"className": "Decal",
+											"filePaths": [],
+											"children": []
+										}
+									]
+								}
+							]
+						}
+					],
+					"filePaths": [
+						"Assets/MaterialService/Materials.rbxm"
+					]
+				}
+			],
+			"filePaths": [
+				"Assets/MaterialService",
+				"default.project.json"
+			]
+		},
+		{
+			"name": "Lighting",
+			"className": "Lighting",
+			"children": [
+				{
+					"name": "Atmosphere",
+					"className": "Atmosphere",
+					"children": [],
+					"filePaths": [
+						"Assets/Lighting/Atmosphere.rbxm"
+					]
+				},
+				{
+					"name": "Bloom",
+					"className": "BloomEffect",
+					"children": [],
+					"filePaths": [
+						"Assets/Lighting/Bloom.rbxm"
+					]
+				},
+				{
+					"name": "Blur",
+					"className": "BlurEffect",
+					"children": [],
+					"filePaths": [
+						"Assets/Lighting/Blur.rbxm"
+					]
+				},
+				{
+					"name": "ColorCorrection",
+					"className": "ColorCorrectionEffect",
+					"children": [],
+					"filePaths": [
+						"Assets/Lighting/ColorCorrection.rbxm"
+					]
+				},
+				{
+					"name": "DepthOfField",
+					"className": "DepthOfFieldEffect",
+					"children": [],
+					"filePaths": [
+						"Assets/Lighting/DepthOfField.rbxm"
+					]
+				},
+				{
+					"name": "Sky",
+					"className": "Sky",
+					"children": [],
+					"filePaths": [
+						"Assets/Lighting/Sky.rbxm"
+					]
+				},
+				{
+					"name": "SunRays",
+					"className": "SunRaysEffect",
+					"children": [],
+					"filePaths": [
+						"Assets/Lighting/SunRays.rbxm"
+					]
+				}
+			],
+			"filePaths": [
+				"Assets/Lighting",
+				"default.project.json"
+			]
+		},
+		{
+			"name": "ReplicatedStorage",
+			"className": "ReplicatedStorage",
+			"children": [
+				{
+					"name": "Source",
+					"className": "Folder",
+					"children": [
+						{
+							"name": "ClientModules",
+							"className": "Folder",
+							"children": [],
+							"filePaths": [
+								"Scripts/ReplicatedStorage/ClientModules"
+							]
+						},
+						{
+							"name": "Pronghorn",
+							"className": "ModuleScript",
+							"children": [
+								{
+									"name": "Debug",
+									"className": "ModuleScript",
+									"children": [],
+									"filePaths": [
+										"Scripts/ReplicatedStorage/Pronghorn/Debug.lua"
+									]
+								},
+								{
+									"name": "New",
+									"className": "ModuleScript",
+									"children": [],
+									"filePaths": [
+										"Scripts/ReplicatedStorage/Pronghorn/New.lua"
+									]
+								},
+								{
+									"name": "Remotes",
+									"className": "ModuleScript",
+									"children": [
+										{
+											"name": "TypeChecker",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Scripts/ReplicatedStorage/Pronghorn/Remotes/TypeChecker.lua"
+											]
+										}
+									],
+									"filePaths": [
+										"Scripts/ReplicatedStorage/Pronghorn/Remotes/init.lua"
+									]
+								}
+							],
+							"filePaths": [
+								"Scripts/ReplicatedStorage/Pronghorn/init.lua"
+							]
+						},
+						{
+							"name": "SharedModules",
+							"className": "Folder",
+							"children": [
+								{
+									"name": "Info",
+									"className": "Folder",
+									"children": [
+										{
+											"name": "BadgeInfo",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Scripts/ReplicatedStorage/SharedModules/Info/BadgeInfo.lua"
+											]
+										},
+										{
+											"name": "CustomEnum",
+											"className": "ModuleScript",
+											"children": [
+												{
+													"name": "ItemEnum",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"Scripts/ReplicatedStorage/SharedModules/Info/CustomEnum/ItemEnum.lua"
+													]
+												},
+												{
+													"name": "LevelEnum",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"Scripts/ReplicatedStorage/SharedModules/Info/CustomEnum/LevelEnum.lua"
+													]
+												},
+												{
+													"name": "QuestEnum",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"Scripts/ReplicatedStorage/SharedModules/Info/CustomEnum/QuestEnum.lua"
+													]
+												},
+												{
+													"name": "RelicEnum",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"Scripts/ReplicatedStorage/SharedModules/Info/CustomEnum/RelicEnum.lua"
+													]
+												},
+												{
+													"name": "UnitEnum",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"Scripts/ReplicatedStorage/SharedModules/Info/CustomEnum/UnitEnum.lua"
+													]
+												},
+												{
+													"name": "WeaponEnum",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"Scripts/ReplicatedStorage/SharedModules/Info/CustomEnum/WeaponEnum.lua"
+													]
+												}
+											],
+											"filePaths": [
+												"Scripts/ReplicatedStorage/SharedModules/Info/CustomEnum/CustomEnum.init.lua"
+											]
+										},
+										{
+											"name": "ItemInfo",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Scripts/ReplicatedStorage/SharedModules/Info/ItemInfo.lua"
+											]
+										},
+										{
+											"name": "LevelInfo",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Scripts/ReplicatedStorage/SharedModules/Info/LevelInfo.lua"
+											]
+										},
+										{
+											"name": "ObjectInfo",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Scripts/ReplicatedStorage/SharedModules/Info/ObjectInfo.lua"
+											]
+										},
+										{
+											"name": "ProductInfo",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Scripts/ReplicatedStorage/SharedModules/Info/ProductInfo.lua"
+											]
+										},
+										{
+											"name": "RelicInfo",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Scripts/ReplicatedStorage/SharedModules/Info/RelicInfo.lua"
+											]
+										},
+										{
+											"name": "ShopInfo",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Scripts/ReplicatedStorage/SharedModules/Info/ShopInfo.lua"
+											]
+										},
+										{
+											"name": "WeaponInfo",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Scripts/ReplicatedStorage/SharedModules/Info/WeaponInfo.lua"
+											]
+										}
+									],
+									"filePaths": [
+										"Scripts/ReplicatedStorage/SharedModules/Info"
+									]
+								},
+								{
+									"name": "Other",
+									"className": "Folder",
+									"children": [
+										{
+											"name": "ColorPalette",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Scripts/ReplicatedStorage/SharedModules/Other/ColorPalette.lua"
+											]
+										},
+										{
+											"name": "HighlightService",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Scripts/ReplicatedStorage/SharedModules/Other/HighlightService.lua"
+											]
+										},
+										{
+											"name": "SoundControlService",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Scripts/ReplicatedStorage/SharedModules/Other/SoundControlService.lua"
+											]
+										},
+										{
+											"name": "Utility",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Scripts/ReplicatedStorage/SharedModules/Other/Utility.lua"
+											]
+										}
+									],
+									"filePaths": [
+										"Scripts/ReplicatedStorage/SharedModules/Other"
+									]
+								},
+								{
+									"name": "UI",
+									"className": "Folder",
+									"children": [
+										{
+											"name": "GeneralUILibrary",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Scripts/ReplicatedStorage/SharedModules/UI/GeneralUILibrary.lua"
+											]
+										},
+										{
+											"name": "UIBasics",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Scripts/ReplicatedStorage/SharedModules/UI/UIBasics.lua"
+											]
+										},
+										{
+											"name": "WorldUIService",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Scripts/ReplicatedStorage/SharedModules/UI/WorldUIService.lua"
+											]
+										}
+									],
+									"filePaths": [
+										"Scripts/ReplicatedStorage/SharedModules/UI"
+									]
+								}
+							],
+							"filePaths": [
+								"Scripts/ReplicatedStorage/SharedModules"
+							]
+						}
+					],
+					"filePaths": [
+						"Scripts/ReplicatedStorage",
+						"default.project.json"
+					]
+				},
+				{
+					"name": "Packages",
+					"className": "Folder",
+					"children": [
+						{
+							"name": "Component",
+							"className": "ModuleScript",
+							"children": [],
+							"filePaths": [
+								"Packages/Component.lua"
+							]
+						},
+						{
+							"name": "Janitor",
+							"className": "ModuleScript",
+							"children": [],
+							"filePaths": [
+								"Packages/Janitor.lua"
+							]
+						},
+						{
+							"name": "Knit",
+							"className": "ModuleScript",
+							"children": [],
+							"filePaths": [
+								"Packages/Knit.lua"
+							]
+						},
+						{
+							"name": "Maid",
+							"className": "ModuleScript",
+							"children": [],
+							"filePaths": [
+								"Packages/Maid.lua"
+							]
+						},
+						{
+							"name": "Promise",
+							"className": "ModuleScript",
+							"children": [],
+							"filePaths": [
+								"Packages/Promise.lua"
+							]
+						},
+						{
+							"name": "Shake",
+							"className": "ModuleScript",
+							"children": [],
+							"filePaths": [
+								"Packages/Shake.lua"
+							]
+						},
+						{
+							"name": "Signal",
+							"className": "ModuleScript",
+							"children": [],
+							"filePaths": [
+								"Packages/Signal.lua"
+							]
+						},
+						{
+							"name": "Spring",
+							"className": "ModuleScript",
+							"children": [],
+							"filePaths": [
+								"Packages/Spring.lua"
+							]
+						},
+						{
+							"name": "Thread",
+							"className": "ModuleScript",
+							"children": [],
+							"filePaths": [
+								"Packages/Thread.lua"
+							]
+						},
+						{
+							"name": "Timer",
+							"className": "ModuleScript",
+							"children": [],
+							"filePaths": [
+								"Packages/Timer.lua"
+							]
+						},
+						{
+							"name": "_Index",
+							"className": "Folder",
+							"children": [
+								{
+									"name": "afrxo_thread@1.0.0",
+									"className": "Folder",
+									"children": [
+										{
+											"name": "thread",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Packages/_Index/afrxo_thread@1.0.0/thread/src/init.lua",
+												"Packages/_Index/afrxo_thread@1.0.0/thread/default.project.json"
+											]
+										}
+									],
+									"filePaths": [
+										"Packages/_Index/afrxo_thread@1.0.0"
+									]
+								},
+								{
+									"name": "brittonfischer_spring@0.1.0",
+									"className": "Folder",
+									"children": [
+										{
+											"name": "spring",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Packages/_Index/brittonfischer_spring@0.1.0/spring/src/init.lua",
+												"Packages/_Index/brittonfischer_spring@0.1.0/spring/default.project.json"
+											]
+										}
+									],
+									"filePaths": [
+										"Packages/_Index/brittonfischer_spring@0.1.0"
+									]
+								},
+								{
+									"name": "evaera_promise@4.0.0",
+									"className": "Folder",
+									"children": [
+										{
+											"name": "promise",
+											"className": "ModuleScript",
+											"children": [
+												{
+													"name": "init.spec",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"Packages/_Index/evaera_promise@4.0.0/promise/lib/init.spec.lua"
+													]
+												}
+											],
+											"filePaths": [
+												"Packages/_Index/evaera_promise@4.0.0/promise/lib/init.lua",
+												"Packages/_Index/evaera_promise@4.0.0/promise/default.project.json"
+											]
+										}
+									],
+									"filePaths": [
+										"Packages/_Index/evaera_promise@4.0.0"
+									]
+								},
+								{
+									"name": "flamenco687_maid@3.2.2",
+									"className": "Folder",
+									"children": [
+										{
+											"name": "maid",
+											"className": "ModuleScript",
+											"children": [
+												{
+													"name": "wally",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"Packages/_Index/flamenco687_maid@3.2.2/maid/wally.toml"
+													]
+												}
+											],
+											"filePaths": [
+												"Packages/_Index/flamenco687_maid@3.2.2/maid/init.lua"
+											]
+										}
+									],
+									"filePaths": [
+										"Packages/_Index/flamenco687_maid@3.2.2"
+									]
+								},
+								{
+									"name": "howmanysmall_janitor@1.14.1",
+									"className": "Folder",
+									"children": [
+										{
+											"name": "janitor",
+											"className": "ModuleScript",
+											"children": [
+												{
+													"name": "GetPromiseLibrary",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"Packages/_Index/howmanysmall_janitor@1.14.1/janitor/src/GetPromiseLibrary.lua"
+													]
+												},
+												{
+													"name": "RbxScriptConnection",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"Packages/_Index/howmanysmall_janitor@1.14.1/janitor/src/RbxScriptConnection.lua"
+													]
+												},
+												{
+													"name": "Symbol",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"Packages/_Index/howmanysmall_janitor@1.14.1/janitor/src/Symbol.lua"
+													]
+												}
+											],
+											"filePaths": [
+												"Packages/_Index/howmanysmall_janitor@1.14.1/janitor/src/init.lua",
+												"Packages/_Index/howmanysmall_janitor@1.14.1/janitor/default.project.json"
+											]
+										}
+									],
+									"filePaths": [
+										"Packages/_Index/howmanysmall_janitor@1.14.1"
+									]
+								},
+								{
+									"name": "sleitnick_comm@0.3.0",
+									"className": "Folder",
+									"children": [
+										{
+											"name": "comm",
+											"className": "ModuleScript",
+											"children": [
+												{
+													"name": "Client",
+													"className": "ModuleScript",
+													"children": [
+														{
+															"name": "ClientComm",
+															"className": "ModuleScript",
+															"children": [],
+															"filePaths": [
+																"Packages/_Index/sleitnick_comm@0.3.0/comm/Client/ClientComm.lua"
+															]
+														},
+														{
+															"name": "ClientRemoteProperty",
+															"className": "ModuleScript",
+															"children": [],
+															"filePaths": [
+																"Packages/_Index/sleitnick_comm@0.3.0/comm/Client/ClientRemoteProperty.lua"
+															]
+														},
+														{
+															"name": "ClientRemoteSignal",
+															"className": "ModuleScript",
+															"children": [],
+															"filePaths": [
+																"Packages/_Index/sleitnick_comm@0.3.0/comm/Client/ClientRemoteSignal.lua"
+															]
+														}
+													],
+													"filePaths": [
+														"Packages/_Index/sleitnick_comm@0.3.0/comm/Client/init.lua"
+													]
+												},
+												{
+													"name": "Server",
+													"className": "ModuleScript",
+													"children": [
+														{
+															"name": "RemoteProperty",
+															"className": "ModuleScript",
+															"children": [],
+															"filePaths": [
+																"Packages/_Index/sleitnick_comm@0.3.0/comm/Server/RemoteProperty.lua"
+															]
+														},
+														{
+															"name": "RemoteSignal",
+															"className": "ModuleScript",
+															"children": [],
+															"filePaths": [
+																"Packages/_Index/sleitnick_comm@0.3.0/comm/Server/RemoteSignal.lua"
+															]
+														},
+														{
+															"name": "ServerComm",
+															"className": "ModuleScript",
+															"children": [],
+															"filePaths": [
+																"Packages/_Index/sleitnick_comm@0.3.0/comm/Server/ServerComm.lua"
+															]
+														}
+													],
+													"filePaths": [
+														"Packages/_Index/sleitnick_comm@0.3.0/comm/Server/init.lua"
+													]
+												},
+												{
+													"name": "Types",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"Packages/_Index/sleitnick_comm@0.3.0/comm/Types.lua"
+													]
+												},
+												{
+													"name": "Util",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"Packages/_Index/sleitnick_comm@0.3.0/comm/Util.lua"
+													]
+												},
+												{
+													"name": "wally",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"Packages/_Index/sleitnick_comm@0.3.0/comm/wally.toml"
+													]
+												}
+											],
+											"filePaths": [
+												"Packages/_Index/sleitnick_comm@0.3.0/comm/init.lua"
+											]
+										},
+										{
+											"name": "Option",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Packages/_Index/sleitnick_comm@0.3.0/Option.lua"
+											]
+										},
+										{
+											"name": "Promise",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Packages/_Index/sleitnick_comm@0.3.0/Promise.lua"
+											]
+										},
+										{
+											"name": "Signal",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Packages/_Index/sleitnick_comm@0.3.0/Signal.lua"
+											]
+										}
+									],
+									"filePaths": [
+										"Packages/_Index/sleitnick_comm@0.3.0"
+									]
+								},
+								{
+									"name": "sleitnick_component@2.4.5",
+									"className": "Folder",
+									"children": [
+										{
+											"name": "component",
+											"className": "ModuleScript",
+											"children": [
+												{
+													"name": "init.spec",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"Packages/_Index/sleitnick_component@2.4.5/component/init.spec.lua"
+													]
+												},
+												{
+													"name": "wally",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"Packages/_Index/sleitnick_component@2.4.5/component/wally.toml"
+													]
+												}
+											],
+											"filePaths": [
+												"Packages/_Index/sleitnick_component@2.4.5/component/init.lua"
+											]
+										},
+										{
+											"name": "Promise",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Packages/_Index/sleitnick_component@2.4.5/Promise.lua"
+											]
+										},
+										{
+											"name": "Signal",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Packages/_Index/sleitnick_component@2.4.5/Signal.lua"
+											]
+										},
+										{
+											"name": "Symbol",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Packages/_Index/sleitnick_component@2.4.5/Symbol.lua"
+											]
+										},
+										{
+											"name": "Trove",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Packages/_Index/sleitnick_component@2.4.5/Trove.lua"
+											]
+										}
+									],
+									"filePaths": [
+										"Packages/_Index/sleitnick_component@2.4.5"
+									]
+								},
+								{
+									"name": "sleitnick_knit@1.4.7",
+									"className": "Folder",
+									"children": [
+										{
+											"name": "Comm",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Packages/_Index/sleitnick_knit@1.4.7/Comm.lua"
+											]
+										},
+										{
+											"name": "knit",
+											"className": "ModuleScript",
+											"children": [
+												{
+													"name": "KnitClient",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"Packages/_Index/sleitnick_knit@1.4.7/knit/KnitClient.lua"
+													]
+												},
+												{
+													"name": "KnitServer",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"Packages/_Index/sleitnick_knit@1.4.7/knit/KnitServer.lua"
+													]
+												},
+												{
+													"name": "wally",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"Packages/_Index/sleitnick_knit@1.4.7/knit/wally.toml"
+													]
+												},
+												{
+													"name": "wally_bundle",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"Packages/_Index/sleitnick_knit@1.4.7/knit/wally_bundle.toml"
+													]
+												}
+											],
+											"filePaths": [
+												"Packages/_Index/sleitnick_knit@1.4.7/knit/init.lua"
+											]
+										},
+										{
+											"name": "Promise",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Packages/_Index/sleitnick_knit@1.4.7/Promise.lua"
+											]
+										}
+									],
+									"filePaths": [
+										"Packages/_Index/sleitnick_knit@1.4.7"
+									]
+								},
+								{
+									"name": "sleitnick_option@1.0.3",
+									"className": "Folder",
+									"children": [
+										{
+											"name": "option",
+											"className": "ModuleScript",
+											"children": [
+												{
+													"name": "init.spec",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"Packages/_Index/sleitnick_option@1.0.3/option/init.spec.lua"
+													]
+												},
+												{
+													"name": "wally",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"Packages/_Index/sleitnick_option@1.0.3/option/wally.toml"
+													]
+												}
+											],
+											"filePaths": [
+												"Packages/_Index/sleitnick_option@1.0.3/option/init.lua"
+											]
+										}
+									],
+									"filePaths": [
+										"Packages/_Index/sleitnick_option@1.0.3"
+									]
+								},
+								{
+									"name": "sleitnick_shake@0.1.7",
+									"className": "Folder",
+									"children": [
+										{
+											"name": "shake",
+											"className": "ModuleScript",
+											"children": [
+												{
+													"name": "init.spec",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"Packages/_Index/sleitnick_shake@0.1.7/shake/init.spec.lua"
+													]
+												},
+												{
+													"name": "wally",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"Packages/_Index/sleitnick_shake@0.1.7/shake/wally.toml"
+													]
+												}
+											],
+											"filePaths": [
+												"Packages/_Index/sleitnick_shake@0.1.7/shake/init.lua"
+											]
+										},
+										{
+											"name": "Trove",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Packages/_Index/sleitnick_shake@0.1.7/Trove.lua"
+											]
+										}
+									],
+									"filePaths": [
+										"Packages/_Index/sleitnick_shake@0.1.7"
+									]
+								},
+								{
+									"name": "sleitnick_signal@1.2.0",
+									"className": "Folder",
+									"children": [
+										{
+											"name": "signal",
+											"className": "ModuleScript",
+											"children": [
+												{
+													"name": "init.spec",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"Packages/_Index/sleitnick_signal@1.2.0/signal/init.spec.lua"
+													]
+												},
+												{
+													"name": "wally",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"Packages/_Index/sleitnick_signal@1.2.0/signal/wally.toml"
+													]
+												}
+											],
+											"filePaths": [
+												"Packages/_Index/sleitnick_signal@1.2.0/signal/init.lua"
+											]
+										}
+									],
+									"filePaths": [
+										"Packages/_Index/sleitnick_signal@1.2.0"
+									]
+								},
+								{
+									"name": "sleitnick_symbol@2.0.0",
+									"className": "Folder",
+									"children": [
+										{
+											"name": "symbol",
+											"className": "ModuleScript",
+											"children": [
+												{
+													"name": "init.spec",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"Packages/_Index/sleitnick_symbol@2.0.0/symbol/init.spec.lua"
+													]
+												},
+												{
+													"name": "wally",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"Packages/_Index/sleitnick_symbol@2.0.0/symbol/wally.toml"
+													]
+												}
+											],
+											"filePaths": [
+												"Packages/_Index/sleitnick_symbol@2.0.0/symbol/init.lua"
+											]
+										}
+									],
+									"filePaths": [
+										"Packages/_Index/sleitnick_symbol@2.0.0"
+									]
+								},
+								{
+									"name": "sleitnick_timer@1.1.2",
+									"className": "Folder",
+									"children": [
+										{
+											"name": "Signal",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Packages/_Index/sleitnick_timer@1.1.2/Signal.lua"
+											]
+										},
+										{
+											"name": "timer",
+											"className": "ModuleScript",
+											"children": [
+												{
+													"name": "init.spec",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"Packages/_Index/sleitnick_timer@1.1.2/timer/init.spec.lua"
+													]
+												},
+												{
+													"name": "wally",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"Packages/_Index/sleitnick_timer@1.1.2/timer/wally.toml"
+													]
+												}
+											],
+											"filePaths": [
+												"Packages/_Index/sleitnick_timer@1.1.2/timer/init.lua"
+											]
+										}
+									],
+									"filePaths": [
+										"Packages/_Index/sleitnick_timer@1.1.2"
+									]
+								},
+								{
+									"name": "sleitnick_trove@0.4.1",
+									"className": "Folder",
+									"children": [
+										{
+											"name": "trove",
+											"className": "ModuleScript",
+											"children": [
+												{
+													"name": "init.spec",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"Packages/_Index/sleitnick_trove@0.4.1/trove/init.spec.lua"
+													]
+												},
+												{
+													"name": "wally",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"Packages/_Index/sleitnick_trove@0.4.1/trove/wally.toml"
+													]
+												}
+											],
+											"filePaths": [
+												"Packages/_Index/sleitnick_trove@0.4.1/trove/init.lua"
+											]
+										}
+									],
+									"filePaths": [
+										"Packages/_Index/sleitnick_trove@0.4.1"
+									]
+								}
+							],
+							"filePaths": [
+								"Packages/_Index"
+							]
+						}
+					],
+					"filePaths": [
+						"Packages",
+						"default.project.json"
+					]
+				},
+				{
+					"name": "Assets",
+					"className": "Folder",
+					"children": [
+						{
+							"name": "Particles",
+							"className": "Folder",
+							"children": [
+								{
+									"name": "GenericParticles",
+									"className": "Part",
+									"children": [
+										{
+											"name": "RainbowSquares",
+											"className": "ParticleEmitter",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "RainbowSquares2",
+											"className": "ParticleEmitter",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Cheer",
+											"className": "ParticleEmitter",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "ExplosionSmoke",
+											"className": "ParticleEmitter",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Crisps",
+											"className": "ParticleEmitter",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Fire",
+											"className": "ParticleEmitter",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "FireBurstBits",
+											"className": "ParticleEmitter",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Steam",
+											"className": "ParticleEmitter",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Sweat",
+											"className": "ParticleEmitter",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Drips",
+											"className": "ParticleEmitter",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "AnvilLines",
+											"className": "ParticleEmitter",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "AnvilRainbowSquares",
+											"className": "ParticleEmitter",
+											"filePaths": [],
+											"children": []
+										}
+									],
+									"filePaths": [
+										"Assets/Replicated/Particles/GenericParticles.rbxm"
+									]
+								}
+							],
+							"filePaths": [
+								"Assets/Replicated/Particles"
+							]
+						},
+						{
+							"name": "Player",
+							"className": "Folder",
+							"children": [
+								{
+									"name": "Animate",
+									"className": "LocalScript",
+									"children": [
+										{
+											"name": "cheer",
+											"className": "StringValue",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "CheerAnim",
+													"className": "Animation",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										},
+										{
+											"name": "swimidle",
+											"className": "StringValue",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "SwimIdle",
+													"className": "Animation",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										},
+										{
+											"name": "dance",
+											"className": "StringValue",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "Animation1",
+													"className": "Animation",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Weight",
+															"className": "NumberValue",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												},
+												{
+													"name": "Animation2",
+													"className": "Animation",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Weight",
+															"className": "NumberValue",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												},
+												{
+													"name": "Animation3",
+													"className": "Animation",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Weight",
+															"className": "NumberValue",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "dance2",
+											"className": "StringValue",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "Animation1",
+													"className": "Animation",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Weight",
+															"className": "NumberValue",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												},
+												{
+													"name": "Animation2",
+													"className": "Animation",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Weight",
+															"className": "NumberValue",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												},
+												{
+													"name": "Animation3",
+													"className": "Animation",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Weight",
+															"className": "NumberValue",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "dance3",
+											"className": "StringValue",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "Animation1",
+													"className": "Animation",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Weight",
+															"className": "NumberValue",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												},
+												{
+													"name": "Animation2",
+													"className": "Animation",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Weight",
+															"className": "NumberValue",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												},
+												{
+													"name": "Animation3",
+													"className": "Animation",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Weight",
+															"className": "NumberValue",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "run",
+											"className": "StringValue",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "RunAnim",
+													"className": "Animation",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										},
+										{
+											"name": "climb",
+											"className": "StringValue",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "ClimbAnim",
+													"className": "Animation",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										},
+										{
+											"name": "fall",
+											"className": "StringValue",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "FallAnim",
+													"className": "Animation",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										},
+										{
+											"name": "laugh",
+											"className": "StringValue",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "LaughAnim",
+													"className": "Animation",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										},
+										{
+											"name": "point",
+											"className": "StringValue",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "PointAnim",
+													"className": "Animation",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										},
+										{
+											"name": "sit",
+											"className": "StringValue",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "SitAnim",
+													"className": "Animation",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										},
+										{
+											"name": "toollunge",
+											"className": "StringValue",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "ToolLungeAnim",
+													"className": "Animation",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										},
+										{
+											"name": "toolnone",
+											"className": "StringValue",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "ToolNoneAnim",
+													"className": "Animation",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										},
+										{
+											"name": "toolslash",
+											"className": "StringValue",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "ToolSlashAnim",
+													"className": "Animation",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										},
+										{
+											"name": "wave",
+											"className": "StringValue",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "WaveAnim",
+													"className": "Animation",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										},
+										{
+											"name": "ScaleDampeningPercent",
+											"className": "NumberValue",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "walk",
+											"className": "StringValue",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "WalkAnim",
+													"className": "Animation",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										},
+										{
+											"name": "jump",
+											"className": "StringValue",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "JumpAnim",
+													"className": "Animation",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										},
+										{
+											"name": "swim",
+											"className": "StringValue",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "Swim",
+													"className": "Animation",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										},
+										{
+											"name": "mood",
+											"className": "StringValue",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "Animation1",
+													"className": "Animation",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										},
+										{
+											"name": "PlayEmote",
+											"className": "BindableFunction",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "idle",
+											"className": "StringValue",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "Animation1",
+													"className": "Animation",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Weight",
+															"className": "NumberValue",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												},
+												{
+													"name": "Animation2",
+													"className": "Animation",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Weight",
+															"className": "NumberValue",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "pose",
+											"className": "StringValue",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "CartoonyPose",
+													"className": "Animation",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Weight",
+															"className": "NumberValue",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												}
+											]
+										}
+									],
+									"filePaths": [
+										"Assets/Replicated/Player/Animate.rbxm"
+									]
+								},
+								{
+									"name": "GameplaySounds",
+									"className": "Folder",
+									"children": [
+										{
+											"name": "ThrowTick",
+											"className": "Sound",
+											"filePaths": [],
+											"children": []
+										}
+									],
+									"filePaths": [
+										"Assets/Replicated/Player/GameplaySounds.rbxm"
+									]
+								},
+								{
+									"name": "Music",
+									"className": "Folder",
+									"children": [],
+									"filePaths": [
+										"Assets/Replicated/Player/Music.rbxm"
+									]
+								},
+								{
+									"name": "Reward",
+									"className": "Model",
+									"children": [
+										{
+											"name": "Base",
+											"className": "Part",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "Prompt",
+													"className": "ProximityPrompt",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										}
+									],
+									"filePaths": [
+										"Assets/Replicated/Player/Reward.rbxm"
+									]
+								},
+								{
+									"name": "UISounds",
+									"className": "Folder",
+									"children": [
+										{
+											"name": "SelectToy",
+											"className": "Sound",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "MainPress",
+											"className": "Sound",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "ChorusSoundEffect",
+													"className": "ChorusSoundEffect",
+													"filePaths": [],
+													"children": []
+												},
+												{
+													"name": "EchoSoundEffect",
+													"className": "EchoSoundEffect",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										},
+										{
+											"name": "MainConfirm",
+											"className": "Sound",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "ChorusSoundEffect",
+													"className": "ChorusSoundEffect",
+													"filePaths": [],
+													"children": []
+												},
+												{
+													"name": "EchoSoundEffect",
+													"className": "EchoSoundEffect",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										},
+										{
+											"name": "LeftFramePress",
+											"className": "Sound",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Click_3",
+											"className": "Sound",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "CloseConfirm",
+											"className": "Sound",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "ClosePress",
+											"className": "Sound",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "GeneralHover",
+											"className": "Sound",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "ChorusSoundEffect",
+													"className": "ChorusSoundEffect",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										},
+										{
+											"name": "LeftFrameConfirm",
+											"className": "Sound",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Toy_Slot_Equip",
+											"className": "Sound",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Toy_Slot_Press",
+											"className": "Sound",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Sort_2",
+											"className": "Sound",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Sort_1",
+											"className": "Sound",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "GeneralHover_2",
+											"className": "Sound",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "ChorusSoundEffect",
+													"className": "ChorusSoundEffect",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										},
+										{
+											"name": "__ExtraSound_2",
+											"className": "Sound",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "ChorusSoundEffect",
+													"className": "ChorusSoundEffect",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										},
+										{
+											"name": "Error_1",
+											"className": "Sound",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Badge_Press",
+											"className": "Sound",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "MiniCoin_1",
+											"className": "Sound",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "EchoSoundEffect",
+													"className": "EchoSoundEffect",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										},
+										{
+											"name": "MiniCoin_2",
+											"className": "Sound",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "EchoSoundEffect",
+													"className": "EchoSoundEffect",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										},
+										{
+											"name": "MiniCoin_3",
+											"className": "Sound",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "EchoSoundEffect",
+													"className": "EchoSoundEffect",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										},
+										{
+											"name": "MiniCoin_4",
+											"className": "Sound",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "EchoSoundEffect",
+													"className": "EchoSoundEffect",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										},
+										{
+											"name": "OnCooldown",
+											"className": "Sound",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Error_2",
+											"className": "Sound",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Toy_Slot_Unequip",
+											"className": "Sound",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "__ExtraSound_1",
+											"className": "Sound",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "PitchShiftSoundEffect",
+													"className": "PitchShiftSoundEffect",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										},
+										{
+											"name": "ConfirmWindowClose",
+											"className": "Sound",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Toy_UI_Press",
+											"className": "Sound",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Toy_UI_Equip",
+											"className": "Sound",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Toy_UI_Unequip",
+											"className": "Sound",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Toy_UI_Picked",
+											"className": "Sound",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "ChorusSoundEffect",
+													"className": "ChorusSoundEffect",
+													"filePaths": [],
+													"children": []
+												},
+												{
+													"name": "PitchShiftSoundEffect",
+													"className": "PitchShiftSoundEffect",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										},
+										{
+											"name": "__ExtraSound_3",
+											"className": "Sound",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Menu_Sweep4",
+											"className": "Sound",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "PitchShiftSoundEffect",
+													"className": "PitchShiftSoundEffect",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										},
+										{
+											"name": "Yes_Press",
+											"className": "Sound",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Yes_Confirm",
+											"className": "Sound",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "No_Confirm",
+											"className": "Sound",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "No_Press",
+											"className": "Sound",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Menu_Sweep1",
+											"className": "Sound",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Menu_Sweep3",
+											"className": "Sound",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "PitchShiftSoundEffect",
+													"className": "PitchShiftSoundEffect",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										},
+										{
+											"name": "Menu_Sweep2",
+											"className": "Sound",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Toy_UI_Press2",
+											"className": "Sound",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "ConfirmWindowOpen",
+											"className": "Sound",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "PitchShiftSoundEffect",
+													"className": "PitchShiftSoundEffect",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										},
+										{
+											"name": "NewToyUnlocked",
+											"className": "Sound",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Badge_Reward_Claim",
+											"className": "Sound",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Badge_Notify_Click",
+											"className": "Sound",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Badge_Complete",
+											"className": "Sound",
+											"filePaths": [],
+											"children": []
+										}
+									],
+									"filePaths": [
+										"Assets/Replicated/Player/UISounds.rbxm"
+									]
+								}
+							],
+							"filePaths": [
+								"Assets/Replicated/Player"
+							]
+						},
+						{
+							"name": "UIs",
+							"className": "Folder",
+							"children": [
+								{
+									"name": "MainGui",
+									"className": "ScreenGui",
+									"children": [],
+									"filePaths": [
+										"Assets/Replicated/UIs/MainGui.rbxm"
+									]
+								}
+							],
+							"filePaths": [
+								"Assets/Replicated/UIs"
+							]
+						}
+					],
+					"filePaths": [
+						"Assets/Replicated",
+						"default.project.json"
+					]
+				},
+				{
+					"name": "Events",
+					"className": "Folder",
+					"children": [
+						{
+							"name": "UI",
+							"className": "Folder",
+							"children": [
+								{
+									"name": "StartDraggingUI",
+									"className": "BindableEvent",
+									"filePaths": [],
+									"children": []
+								},
+								{
+									"name": "StopDraggingUI",
+									"className": "BindableEvent",
+									"filePaths": [],
+									"children": []
+								}
+							],
+							"filePaths": [
+								"Events/Replicated/UI.rbxm"
+							]
+						}
+					],
+					"filePaths": [
+						"Events/Replicated",
+						"default.project.json"
+					]
+				}
+			],
+			"filePaths": [
+				"default.project.json"
+			]
+		},
+		{
+			"name": "ServerScriptService",
+			"className": "ServerScriptService",
+			"children": [
+				{
+					"name": "Source",
+					"className": "Folder",
+					"children": [
+						{
+							"name": "ProfileService",
+							"className": "ModuleScript",
+							"children": [],
+							"filePaths": [
+								"Scripts/ServerScriptService/ProfileService.lua"
+							]
+						},
+						{
+							"name": "ServerModules",
+							"className": "Folder",
+							"children": [
+								{
+									"name": "Classes",
+									"className": "Folder",
+									"children": [
+										{
+											"name": "QuestBoard",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Scripts/ServerScriptService/ServerModules/Classes/QuestBoard/QuestBoard.init.lua"
+											]
+										},
+										{
+											"name": "NPC",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Scripts/ServerScriptService/ServerModules/Classes/NPC.lua"
+											]
+										},
+										{
+											"name": "Quest",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Scripts/ServerScriptService/ServerModules/Classes/Quest.lua"
+											]
+										},
+										{
+											"name": "Ref",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Scripts/ServerScriptService/ServerModules/Classes/Ref.lua"
+											]
+										}
+									],
+									"filePaths": [
+										"Scripts/ServerScriptService/ServerModules/Classes"
+									]
+								},
+								{
+									"name": "General",
+									"className": "Folder",
+									"children": [
+										{
+											"name": "CameraService",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Scripts/ServerScriptService/ServerModules/General/CameraService.lua"
+											]
+										},
+										{
+											"name": "NPCService",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Scripts/ServerScriptService/ServerModules/General/NPCService/NPCService.init.lua"
+											]
+										},
+										{
+											"name": "ProjectileService",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Scripts/ServerScriptService/ServerModules/General/ProjectileService.lua"
+											]
+										},
+										{
+											"name": "QuestService",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Scripts/ServerScriptService/ServerModules/General/QuestService/QuestService.init.lua"
+											]
+										},
+										{
+											"name": "RagdollService",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Scripts/ServerScriptService/ServerModules/General/RagdollService.lua"
+											]
+										},
+										{
+											"name": "SignalService",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Scripts/ServerScriptService/ServerModules/General/SignalService.lua"
+											]
+										},
+										{
+											"name": "UnitManagerService",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Scripts/ServerScriptService/ServerModules/General/UnitManagerService.lua"
+											]
+										},
+										{
+											"name": "UnitValuesService",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Scripts/ServerScriptService/ServerModules/General/UnitValuesService.lua"
+											]
+										}
+									],
+									"filePaths": [
+										"Scripts/ServerScriptService/ServerModules/General"
+									]
+								},
+								{
+									"name": "Info",
+									"className": "Folder",
+									"children": [
+										{
+											"name": "NPCInfo",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Scripts/ServerScriptService/ServerModules/Info/NPCInfo.lua"
+											]
+										}
+									],
+									"filePaths": [
+										"Scripts/ServerScriptService/ServerModules/Info"
+									]
+								},
+								{
+									"name": "Other",
+									"className": "Folder",
+									"children": [
+										{
+											"name": "LineOfSightService",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Scripts/ServerScriptService/ServerModules/Other/LineOfSightService.lua"
+											]
+										},
+										{
+											"name": "TemplateModule",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Scripts/ServerScriptService/ServerModules/Other/TemplateModule.lua"
+											]
+										},
+										{
+											"name": "VisualService",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Scripts/ServerScriptService/ServerModules/Other/VisualService.lua"
+											]
+										}
+									],
+									"filePaths": [
+										"Scripts/ServerScriptService/ServerModules/Other"
+									]
+								},
+								{
+									"name": "Player",
+									"className": "Folder",
+									"children": [
+										{
+											"name": "BadgeService",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Scripts/ServerScriptService/ServerModules/Player/BadgeService.lua"
+											]
+										},
+										{
+											"name": "CharacterService",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Scripts/ServerScriptService/ServerModules/Player/CharacterService.lua"
+											]
+										},
+										{
+											"name": "PartyService",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Scripts/ServerScriptService/ServerModules/Player/PartyService.lua"
+											]
+										}
+									],
+									"filePaths": [
+										"Scripts/ServerScriptService/ServerModules/Player"
+									]
+								},
+								{
+									"name": "Top",
+									"className": "Folder",
+									"children": [
+										{
+											"name": "CoreGameService",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Scripts/ServerScriptService/ServerModules/Top/CoreGameService.lua"
+											]
+										},
+										{
+											"name": "DataService",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Scripts/ServerScriptService/ServerModules/Top/DataService.lua"
+											]
+										},
+										{
+											"name": "ServerGlobalValues",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Scripts/ServerScriptService/ServerModules/Top/ServerGlobalValues.lua"
+											]
+										},
+										{
+											"name": "ShopService",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Scripts/ServerScriptService/ServerModules/Top/ShopService.lua"
+											]
+										}
+									],
+									"filePaths": [
+										"Scripts/ServerScriptService/ServerModules/Top"
+									]
+								}
+							],
+							"filePaths": [
+								"Scripts/ServerScriptService/ServerModules"
+							]
+						},
+						{
+							"name": "ServerSetup",
+							"className": "ModuleScript",
+							"children": [],
+							"filePaths": [
+								"Scripts/ServerScriptService/ServerSetup.lua"
+							]
+						},
+						{
+							"name": "TemplateService",
+							"className": "ModuleScript",
+							"children": [],
+							"filePaths": [
+								"Scripts/ServerScriptService/TemplateService.lua"
+							]
+						}
+					],
+					"filePaths": [
+						"Scripts/ServerScriptService",
+						"default.project.json"
+					]
+				}
+			],
+			"filePaths": [
+				"default.project.json"
+			]
+		},
+		{
+			"name": "ServerStorage",
+			"className": "ServerStorage",
+			"children": [
+				{
+					"name": "Assets",
+					"className": "Folder",
+					"children": [
+						{
+							"name": "Misc",
+							"className": "Folder",
+							"children": [
+								{
+									"name": "UnitValues",
+									"className": "Folder",
+									"children": [
+										{
+											"name": "Current",
+											"className": "Folder",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "Health",
+													"className": "NumberValue",
+													"filePaths": [],
+													"children": []
+												},
+												{
+													"name": "Hidden",
+													"className": "BoolValue",
+													"filePaths": [],
+													"children": []
+												},
+												{
+													"name": "Mana",
+													"className": "NumberValue",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										},
+										{
+											"name": "Effects",
+											"className": "Folder",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Base",
+											"className": "Configuration",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "States",
+											"className": "Configuration",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "TauntGoal",
+													"className": "ObjectValue",
+													"filePaths": [],
+													"children": []
+												},
+												{
+													"name": "PanicFrom",
+													"className": "ObjectValue",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										}
+									],
+									"filePaths": [
+										"Assets/Server/Misc/UnitValues.rbxm"
+									]
+								}
+							],
+							"filePaths": [
+								"Assets/Server/Misc"
+							]
+						}
+					],
+					"filePaths": [
+						"Assets/Server",
+						"default.project.json"
+					]
+				},
+				{
+					"name": "Events",
+					"className": "Folder",
+					"children": [],
+					"filePaths": [
+						"Events/Server",
+						"default.project.json"
+					]
+				}
+			],
+			"filePaths": [
+				"default.project.json"
+			]
+		},
+		{
+			"name": "StarterPlayer",
+			"className": "StarterPlayer",
+			"children": [
+				{
+					"name": "StarterPlayerScripts",
+					"className": "Folder",
+					"children": [
+						{
+							"name": "Source",
+							"className": "Folder",
+							"children": [
+								{
+									"name": "ClientSetup",
+									"className": "ModuleScript",
+									"children": [],
+									"filePaths": [
+										"Scripts/StarterPlayerScripts/ClientSetup.lua"
+									]
+								},
+								{
+									"name": "General",
+									"className": "Folder",
+									"children": [
+										{
+											"name": "AnimationController",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Scripts/StarterPlayerScripts/General/AnimationController.lua"
+											]
+										},
+										{
+											"name": "AvatarController",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Scripts/StarterPlayerScripts/General/AvatarController.lua"
+											]
+										},
+										{
+											"name": "CameraController",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Scripts/StarterPlayerScripts/General/CameraController.lua"
+											]
+										},
+										{
+											"name": "DeviceController",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Scripts/StarterPlayerScripts/General/DeviceController.lua"
+											]
+										},
+										{
+											"name": "MainController",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Scripts/StarterPlayerScripts/General/MainController.lua"
+											]
+										},
+										{
+											"name": "MainUIController",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Scripts/StarterPlayerScripts/General/MainUIController.lua"
+											]
+										}
+									],
+									"filePaths": [
+										"Scripts/StarterPlayerScripts/General"
+									]
+								},
+								{
+									"name": "Main",
+									"className": "ModuleScript",
+									"children": [],
+									"filePaths": [
+										"Scripts/StarterPlayerScripts/Main.lua"
+									]
+								},
+								{
+									"name": "Other",
+									"className": "Folder",
+									"children": [
+										{
+											"name": "PlayerInfo",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Scripts/StarterPlayerScripts/Other/PlayerInfo.lua"
+											]
+										}
+									],
+									"filePaths": [
+										"Scripts/StarterPlayerScripts/Other"
+									]
+								},
+								{
+									"name": "UIModules",
+									"className": "Folder",
+									"children": [],
+									"filePaths": [
+										"Scripts/StarterPlayerScripts/UIModules"
+									]
+								}
+							],
+							"filePaths": [
+								"Scripts/StarterPlayerScripts",
+								"default.project.json"
+							]
+						}
+					],
+					"filePaths": [
+						"default.project.json"
+					]
+				}
+			],
+			"filePaths": [
+				"default.project.json"
+			]
+		},
+		{
+			"name": "SoundService",
+			"className": "SoundService",
+			"children": [
+				{
+					"name": "Music",
+					"className": "SoundGroup",
+					"children": [],
+					"filePaths": [
+						"Assets/SoundService/Music.rbxm"
+					]
+				},
+				{
+					"name": "SoundEffects",
+					"className": "SoundGroup",
+					"children": [],
+					"filePaths": [
+						"Assets/SoundService/SoundEffects.rbxm"
+					]
+				},
+				{
+					"name": "Voiceovers",
+					"className": "SoundGroup",
+					"children": [],
+					"filePaths": [
+						"Assets/SoundService/Voiceovers.rbxm"
+					]
+				}
+			],
+			"filePaths": [
+				"Assets/SoundService",
+				"default.project.json"
+			]
+		},
+		{
+			"name": "Players",
+			"className": "Players",
+			"children": [],
+			"filePaths": [
+				"default.project.json"
+			]
+		}
+	]
+}

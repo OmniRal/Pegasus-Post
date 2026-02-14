@@ -1,0 +1,8 @@
+[package]
+name = "flamenco687/maid"
+description = "Maid class"
+version = "3.2.2"
+license = "Apache-2.0"
+authors = ["finobinos", "flamenco687"]
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
