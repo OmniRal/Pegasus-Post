@@ -2230,14 +2230,6 @@
 									"className": "Folder",
 									"children": [
 										{
-											"name": "QuestBoard",
-											"className": "ModuleScript",
-											"children": [],
-											"filePaths": [
-												"Scripts/ServerScriptService/ServerModules/Classes/QuestBoard/QuestBoard.init.lua"
-											]
-										},
-										{
 											"name": "NPC",
 											"className": "ModuleScript",
 											"children": [],
@@ -2251,6 +2243,14 @@
 											"children": [],
 											"filePaths": [
 												"Scripts/ServerScriptService/ServerModules/Classes/Quest.lua"
+											]
+										},
+										{
+											"name": "QuestBoard",
+											"className": "Folder",
+											"children": [],
+											"filePaths": [
+												"Scripts/ServerScriptService/ServerModules/Classes/QuestBoard"
 											]
 										},
 										{
@@ -2279,27 +2279,11 @@
 											]
 										},
 										{
-											"name": "NPCService",
-											"className": "ModuleScript",
-											"children": [],
-											"filePaths": [
-												"Scripts/ServerScriptService/ServerModules/General/NPCService/NPCService.init.lua"
-											]
-										},
-										{
 											"name": "ProjectileService",
 											"className": "ModuleScript",
 											"children": [],
 											"filePaths": [
 												"Scripts/ServerScriptService/ServerModules/General/ProjectileService.lua"
-											]
-										},
-										{
-											"name": "QuestService",
-											"className": "ModuleScript",
-											"children": [],
-											"filePaths": [
-												"Scripts/ServerScriptService/ServerModules/General/QuestService/QuestService.init.lua"
 											]
 										},
 										{
@@ -2332,6 +2316,14 @@
 											"children": [],
 											"filePaths": [
 												"Scripts/ServerScriptService/ServerModules/General/UnitValuesService.lua"
+											]
+										},
+										{
+											"name": "VespaService",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Scripts/ServerScriptService/ServerModules/General/VespaService.lua"
 											]
 										}
 									],
@@ -2667,6 +2659,14 @@
 											"children": [],
 											"filePaths": [
 												"Scripts/StarterPlayerScripts/General/MainUIController.lua"
+											]
+										},
+										{
+											"name": "VespaController",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Scripts/StarterPlayerScripts/General/VespaController.lua"
 											]
 										}
 									],
