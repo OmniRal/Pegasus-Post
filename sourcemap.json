@@ -2162,6 +2162,4480 @@
 							"filePaths": [
 								"Assets/Replicated/UIs"
 							]
+						},
+						{
+							"name": "Vespas",
+							"className": "Folder",
+							"children": [
+								{
+									"name": "Standard",
+									"className": "Model",
+									"filePaths": [],
+									"children": [
+										{
+											"name": "FrontWheel",
+											"className": "Model",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "Cap",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "SurfaceAppearance",
+															"className": "SurfaceAppearance",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												},
+												{
+													"name": "Cover",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "SurfaceAppearance",
+															"className": "SurfaceAppearance",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												},
+												{
+													"name": "Wheel",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Cover",
+															"className": "Weld",
+															"filePaths": [],
+															"children": []
+														},
+														{
+															"name": "Cap",
+															"className": "Weld",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "BackWheel",
+											"className": "Model",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "Cap",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "SurfaceAppearance",
+															"className": "SurfaceAppearance",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												},
+												{
+													"name": "Cover",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "SurfaceAppearance",
+															"className": "SurfaceAppearance",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												},
+												{
+													"name": "Wheel",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Cover",
+															"className": "Weld",
+															"filePaths": [],
+															"children": []
+														},
+														{
+															"name": "Cap",
+															"className": "Weld",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "SteerBase",
+											"className": "MeshPart",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "SurfaceAppearance",
+													"className": "SurfaceAppearance",
+													"filePaths": [],
+													"children": []
+												},
+												{
+													"name": "HeadlightTrim",
+													"className": "Weld",
+													"filePaths": [],
+													"children": []
+												},
+												{
+													"name": "Headlight",
+													"className": "Weld",
+													"filePaths": [],
+													"children": []
+												},
+												{
+													"name": "Handlebar",
+													"className": "Weld",
+													"filePaths": [],
+													"children": []
+												},
+												{
+													"name": "HandlebarCovers",
+													"className": "Weld",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										},
+										{
+											"name": "Headlight",
+											"className": "MeshPart",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "SpotLight",
+													"className": "SpotLight",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										},
+										{
+											"name": "HandlebarCovers",
+											"className": "MeshPart",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "SurfaceAppearance",
+													"className": "SurfaceAppearance",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										},
+										{
+											"name": "Handlebar",
+											"className": "MeshPart",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "HeadlightTrim",
+											"className": "MeshPart",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Crest",
+											"className": "MeshPart",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "SurfaceAppearance",
+													"className": "SurfaceAppearance",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										},
+										{
+											"name": "WheelFin",
+											"className": "MeshPart",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "SurfaceAppearance",
+													"className": "SurfaceAppearance",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										},
+										{
+											"name": "FinMetal",
+											"className": "MeshPart",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "SurfaceAppearance",
+													"className": "SurfaceAppearance",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										},
+										{
+											"name": "FrontBaseMetal",
+											"className": "MeshPart",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "SurfaceAppearance",
+													"className": "SurfaceAppearance",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										},
+										{
+											"name": "FrontBase",
+											"className": "MeshPart",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "FrontBaseTrim",
+													"className": "Weld",
+													"filePaths": [],
+													"children": []
+												},
+												{
+													"name": "Crest",
+													"className": "Weld",
+													"filePaths": [],
+													"children": []
+												},
+												{
+													"name": "FrontBaseMetal",
+													"className": "Weld",
+													"filePaths": [],
+													"children": []
+												},
+												{
+													"name": "SeatBase",
+													"className": "Weld",
+													"filePaths": [],
+													"children": []
+												},
+												{
+													"name": "Cushion",
+													"className": "Weld",
+													"filePaths": [],
+													"children": []
+												},
+												{
+													"name": "CushionBolts",
+													"className": "Weld",
+													"filePaths": [],
+													"children": []
+												},
+												{
+													"name": "FloorBoard",
+													"className": "Weld",
+													"filePaths": [],
+													"children": []
+												},
+												{
+													"name": "BackBar",
+													"className": "Weld",
+													"filePaths": [],
+													"children": []
+												},
+												{
+													"name": "PartA",
+													"className": "Weld",
+													"filePaths": [],
+													"children": []
+												},
+												{
+													"name": "SurfaceAppearance",
+													"className": "SurfaceAppearance",
+													"filePaths": [],
+													"children": []
+												},
+												{
+													"name": "Mesh",
+													"className": "SpecialMesh",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										},
+										{
+											"name": "DriveBar",
+											"className": "MeshPart",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "SurfaceAppearance",
+													"className": "SurfaceAppearance",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										},
+										{
+											"name": "CushionBolts",
+											"className": "MeshPart",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "SurfaceAppearance",
+													"className": "SurfaceAppearance",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										},
+										{
+											"name": "FrontBaseTrim",
+											"className": "MeshPart",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "SurfaceAppearance",
+													"className": "SurfaceAppearance",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										},
+										{
+											"name": "Cushion",
+											"className": "MeshPart",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "SurfaceAppearance",
+													"className": "SurfaceAppearance",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										},
+										{
+											"name": "BackBar",
+											"className": "MeshPart",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "SurfaceAppearance",
+													"className": "SurfaceAppearance",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										},
+										{
+											"name": "FloorBoard",
+											"className": "MeshPart",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "SurfaceAppearance",
+													"className": "SurfaceAppearance",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										},
+										{
+											"name": "SeatBase",
+											"className": "MeshPart",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "SurfaceAppearance",
+													"className": "SurfaceAppearance",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										},
+										{
+											"name": "RightHatch",
+											"className": "MeshPart",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "SurfaceAppearance",
+													"className": "SurfaceAppearance",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										},
+										{
+											"name": "LeftHatch",
+											"className": "MeshPart",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "SurfaceAppearance",
+													"className": "SurfaceAppearance",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										},
+										{
+											"name": "RightPipe1",
+											"className": "MeshPart",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "SurfaceAppearance",
+													"className": "SurfaceAppearance",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										},
+										{
+											"name": "LeftPipe2",
+											"className": "MeshPart",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "SurfaceAppearance",
+													"className": "SurfaceAppearance",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										},
+										{
+											"name": "LeftPipe1",
+											"className": "MeshPart",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "SurfaceAppearance",
+													"className": "SurfaceAppearance",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										},
+										{
+											"name": "RightPipe2",
+											"className": "MeshPart",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "SurfaceAppearance",
+													"className": "SurfaceAppearance",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										},
+										{
+											"name": "PartB",
+											"className": "Part",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "Attachment",
+													"className": "Attachment",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										},
+										{
+											"name": "PartA",
+											"className": "Part",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "HingeConstraint",
+													"className": "HingeConstraint",
+													"filePaths": [],
+													"children": []
+												},
+												{
+													"name": "Attachment",
+													"className": "Attachment",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										},
+										{
+											"name": "Build",
+											"className": "Model",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "Crest",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "SurfaceAppearance",
+															"className": "SurfaceAppearance",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												},
+												{
+													"name": "SeatBase",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "SurfaceAppearance",
+															"className": "SurfaceAppearance",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												},
+												{
+													"name": "RightPipe2",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "SurfaceAppearance",
+															"className": "SurfaceAppearance",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												},
+												{
+													"name": "RightPipe1",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "SurfaceAppearance",
+															"className": "SurfaceAppearance",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												},
+												{
+													"name": "RightHatch",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "SurfaceAppearance",
+															"className": "SurfaceAppearance",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												},
+												{
+													"name": "LeftPipe2",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "SurfaceAppearance",
+															"className": "SurfaceAppearance",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												},
+												{
+													"name": "LeftPipe1",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "SurfaceAppearance",
+															"className": "SurfaceAppearance",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												},
+												{
+													"name": "LeftHatch",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "SurfaceAppearance",
+															"className": "SurfaceAppearance",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												},
+												{
+													"name": "Cushion",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "SurfaceAppearance",
+															"className": "SurfaceAppearance",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												},
+												{
+													"name": "CushionBolts",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "SurfaceAppearance",
+															"className": "SurfaceAppearance",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												},
+												{
+													"name": "BackBar",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "SurfaceAppearance",
+															"className": "SurfaceAppearance",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												},
+												{
+													"name": "FrontBaseTrim",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "SurfaceAppearance",
+															"className": "SurfaceAppearance",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												},
+												{
+													"name": "FrontBaseMetal",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "SurfaceAppearance",
+															"className": "SurfaceAppearance",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												},
+												{
+													"name": "FrontBase",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "FrontBaseTrim",
+															"className": "Weld",
+															"filePaths": [],
+															"children": []
+														},
+														{
+															"name": "Crest",
+															"className": "Weld",
+															"filePaths": [],
+															"children": []
+														},
+														{
+															"name": "FrontBaseMetal",
+															"className": "Weld",
+															"filePaths": [],
+															"children": []
+														},
+														{
+															"name": "SeatBase",
+															"className": "Weld",
+															"filePaths": [],
+															"children": []
+														},
+														{
+															"name": "Cushion",
+															"className": "Weld",
+															"filePaths": [],
+															"children": []
+														},
+														{
+															"name": "CushionBolts",
+															"className": "Weld",
+															"filePaths": [],
+															"children": []
+														},
+														{
+															"name": "FloorBoard",
+															"className": "Weld",
+															"filePaths": [],
+															"children": []
+														},
+														{
+															"name": "BackBar",
+															"className": "Weld",
+															"filePaths": [],
+															"children": []
+														},
+														{
+															"name": "SurfaceAppearance",
+															"className": "SurfaceAppearance",
+															"filePaths": [],
+															"children": []
+														},
+														{
+															"name": "Mesh",
+															"className": "SpecialMesh",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												},
+												{
+													"name": "FloorBoard",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "SurfaceAppearance",
+															"className": "SurfaceAppearance",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												},
+												{
+													"name": "HandleBar",
+													"className": "Model",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "HandlebarCovers",
+															"className": "MeshPart",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "SurfaceAppearance",
+																	"className": "SurfaceAppearance",
+																	"filePaths": [],
+																	"children": []
+																}
+															]
+														},
+														{
+															"name": "Handlebar",
+															"className": "MeshPart",
+															"filePaths": [],
+															"children": []
+														},
+														{
+															"name": "SteerBase",
+															"className": "MeshPart",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "SurfaceAppearance",
+																	"className": "SurfaceAppearance",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "HeadlightTrim",
+																	"className": "Weld",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "Headlight",
+																	"className": "Weld",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "Handlebar",
+																	"className": "Weld",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "HandlebarCovers",
+																	"className": "Weld",
+																	"filePaths": [],
+																	"children": []
+																}
+															]
+														},
+														{
+															"name": "HeadlightTrim",
+															"className": "MeshPart",
+															"filePaths": [],
+															"children": []
+														},
+														{
+															"name": "Headlight",
+															"className": "MeshPart",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "SpotLight",
+																	"className": "SpotLight",
+																	"filePaths": [],
+																	"children": []
+																}
+															]
+														},
+														{
+															"name": "DriveBar",
+															"className": "MeshPart",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "SurfaceAppearance",
+																	"className": "SurfaceAppearance",
+																	"filePaths": [],
+																	"children": []
+																}
+															]
+														},
+														{
+															"name": "WheelFin",
+															"className": "MeshPart",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "SurfaceAppearance",
+																	"className": "SurfaceAppearance",
+																	"filePaths": [],
+																	"children": []
+																}
+															]
+														},
+														{
+															"name": "FinMetal",
+															"className": "MeshPart",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "SurfaceAppearance",
+																	"className": "SurfaceAppearance",
+																	"filePaths": [],
+																	"children": []
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "Hitbox",
+											"className": "Model",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "Part",
+													"className": "Part",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "StandardBlue",
+									"className": "Model",
+									"filePaths": [],
+									"children": [
+										{
+											"name": "Meshes/Vespa Full_Crest",
+											"className": "MeshPart",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Meshes/Vespa Full_Wheel_Hub",
+											"className": "MeshPart",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Meshes/Vespa Full_Lower_Front_Decor_Cube",
+											"className": "MeshPart",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Meshes/Vespa Full_Wheel_Well",
+											"className": "MeshPart",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Meshes/Vespa Full_Drive_Bar",
+											"className": "MeshPart",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Meshes/Vespa Full_Wheel",
+											"className": "MeshPart",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Meshes/Vespa Full_Wheel_Well_Decor",
+											"className": "MeshPart",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Meshes/Vespa Full_Wheel_Hub_Highlight",
+											"className": "MeshPart",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Meshes/Vespa Full_Lower_Front_Decor",
+											"className": "MeshPart",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Meshes/Vespa Full_Crest_Cube",
+											"className": "MeshPart",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Meshes/Vespa Full_Front_Body",
+											"className": "MeshPart",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Meshes/Vespa Full_Floor_Board",
+											"className": "MeshPart",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Meshes/Vespa Full_Trim",
+											"className": "MeshPart",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Meshes/Vespa Full_Tailpipe1",
+											"className": "MeshPart",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Meshes/Vespa Full_Headlight_Rim",
+											"className": "MeshPart",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Meshes/Vespa Full_Handlebars",
+											"className": "MeshPart",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Meshes/Vespa Full_Seat_Screw_2",
+											"className": "MeshPart",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Meshes/Vespa Full_Right_Side",
+											"className": "MeshPart",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Meshes/Vespa Full_Back_Body",
+											"className": "MeshPart",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Meshes/Vespa Full_Seat",
+											"className": "MeshPart",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Meshes/Vespa Full_Handle_Covers",
+											"className": "MeshPart",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Meshes/Vespa Full_Headlight",
+											"className": "MeshPart",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Meshes/Vespa Full_Handlebar_Middle_Cover",
+											"className": "MeshPart",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Meshes/Vespa Full_Vespa_back_decor",
+											"className": "MeshPart",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Meshes/Vespa Full_Tailpipe",
+											"className": "MeshPart",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Meshes/Vespa Full_Left_Side",
+											"className": "MeshPart",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Meshes/Vespa Full_Back_Bar",
+											"className": "MeshPart",
+											"filePaths": [],
+											"children": []
+										}
+									]
+								},
+								{
+									"name": "Ref",
+									"className": "Model",
+									"filePaths": [],
+									"children": [
+										{
+											"name": "Hitbox",
+											"className": "Model",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "Part",
+													"className": "Part",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Weld",
+															"className": "Weld",
+															"filePaths": [],
+															"children": []
+														},
+														{
+															"name": "Attachment",
+															"className": "Attachment",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "W3",
+											"className": "Model",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "Rim",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": []
+												},
+												{
+													"name": "Tire",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Weld",
+															"className": "Weld",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "GroundPart",
+											"className": "Part",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "Burst",
+													"className": "Attachment",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "2",
+															"className": "Attachment",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "star1",
+																	"className": "ParticleEmitter",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "Glow",
+																	"className": "ParticleEmitter",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "Dust1",
+																	"className": "ParticleEmitter",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "Spark",
+																	"className": "ParticleEmitter",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "Dust3",
+																	"className": "ParticleEmitter",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "Dust",
+																	"className": "ParticleEmitter",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "impact (ish)",
+																	"className": "ParticleEmitter",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "Dust2",
+																	"className": "ParticleEmitter",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "initial Impact",
+																	"className": "ParticleEmitter",
+																	"filePaths": [],
+																	"children": []
+																}
+															]
+														},
+														{
+															"name": "1",
+															"className": "Attachment",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "initial Impact",
+																	"className": "ParticleEmitter",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "Dust2",
+																	"className": "ParticleEmitter",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "impact (ish)",
+																	"className": "ParticleEmitter",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "Dust",
+																	"className": "ParticleEmitter",
+																	"filePaths": [],
+																	"children": []
+																}
+															]
+														}
+													]
+												},
+												{
+													"name": "Sparks",
+													"className": "Attachment",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "2",
+															"className": "Attachment",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "Spark6",
+																	"className": "ParticleEmitter",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "Spark5",
+																	"className": "ParticleEmitter",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "Spark8",
+																	"className": "ParticleEmitter",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "Spark7",
+																	"className": "ParticleEmitter",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "Spark1",
+																	"className": "ParticleEmitter",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "Spark2",
+																	"className": "ParticleEmitter",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "Spark9",
+																	"className": "ParticleEmitter",
+																	"filePaths": [],
+																	"children": []
+																}
+															]
+														},
+														{
+															"name": "1",
+															"className": "Attachment",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "Spark3",
+																	"className": "ParticleEmitter",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "Spark2",
+																	"className": "ParticleEmitter",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "Spark",
+																	"className": "ParticleEmitter",
+																	"filePaths": [],
+																	"children": []
+																}
+															]
+														}
+													]
+												},
+												{
+													"name": "Slide",
+													"className": "Attachment",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Slide",
+															"className": "ParticleEmitter",
+															"filePaths": [],
+															"children": []
+														},
+														{
+															"name": "Slidedust2",
+															"className": "ParticleEmitter",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "W1",
+											"className": "Model",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "Tire",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Weld",
+															"className": "Weld",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												},
+												{
+													"name": "Rim",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										},
+										{
+											"name": "W4",
+											"className": "Model",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "Rim",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": []
+												},
+												{
+													"name": "Tire",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Weld",
+															"className": "Weld",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "W2",
+											"className": "Model",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "Tire",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Weld",
+															"className": "Weld",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												},
+												{
+													"name": "Rim",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										},
+										{
+											"name": "BodyVisual",
+											"className": "Model",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "Vortexes",
+													"className": "Attachment",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Sword",
+															"className": "Attachment",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "VortexVFXBeams5",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "back",
+																			"className": "Attachment",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "Beam",
+																			"className": "Beam",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "Beam2",
+																			"className": "Beam",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "Beam1",
+																			"className": "Beam",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "Front",
+																			"className": "Attachment",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "VortexVFXBeams6",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "Beam",
+																			"className": "Beam",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "Beam2",
+																			"className": "Beam",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "Front",
+																			"className": "Attachment",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "back",
+																			"className": "Attachment",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "Beam1",
+																			"className": "Beam",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "Front",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "ParticleEmitter1",
+																			"className": "ParticleEmitter",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "VortexVFXBeams",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "Beam1",
+																			"className": "Beam",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "back",
+																			"className": "Attachment",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "Front",
+																			"className": "Attachment",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "Beam",
+																			"className": "Beam",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "Beam2",
+																			"className": "Beam",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "VortexVFXBeams1",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "back",
+																			"className": "Attachment",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "Front",
+																			"className": "Attachment",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "Beam1",
+																			"className": "Beam",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "Beam2",
+																			"className": "Beam",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "Beam",
+																			"className": "Beam",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "VortexVFXBeams3",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "Front",
+																			"className": "Attachment",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "Beam1",
+																			"className": "Beam",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "Beam2",
+																			"className": "Beam",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "back",
+																			"className": "Attachment",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "Beam",
+																			"className": "Beam",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "VortexVFXBeams4",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "Front",
+																			"className": "Attachment",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "Beam2",
+																			"className": "Beam",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "Beam",
+																			"className": "Beam",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "back",
+																			"className": "Attachment",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "Beam1",
+																			"className": "Beam",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "VortexVFXBeams7",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "back",
+																			"className": "Attachment",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "Front",
+																			"className": "Attachment",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "Beam",
+																			"className": "Beam",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "Beam1",
+																			"className": "Beam",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "Beam2",
+																			"className": "Beam",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "VortexVFXBeams2",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "Beam2",
+																			"className": "Beam",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "back",
+																			"className": "Attachment",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "Beam1",
+																			"className": "Beam",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "Front",
+																			"className": "Attachment",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "Beam",
+																			"className": "Beam",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"name": "Weak",
+															"className": "Attachment",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "VortexVFXBeams",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "Beam",
+																			"className": "Beam",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "Beam2",
+																			"className": "Beam",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "Front",
+																			"className": "Attachment",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "back",
+																			"className": "Attachment",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "Beam1",
+																			"className": "Beam",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "VortexVFXBeams3",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "Beam1",
+																			"className": "Beam",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "Beam",
+																			"className": "Beam",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "back",
+																			"className": "Attachment",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "Front",
+																			"className": "Attachment",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "Beam2",
+																			"className": "Beam",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "Front",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "ParticleEmitter1",
+																			"className": "ParticleEmitter",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "VortexVFXBeams1",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "Front",
+																			"className": "Attachment",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "Beam2",
+																			"className": "Beam",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "Beam1",
+																			"className": "Beam",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "back",
+																			"className": "Attachment",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "Beam",
+																			"className": "Beam",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "VortexVFXBeams6",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "Beam1",
+																			"className": "Beam",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "Front",
+																			"className": "Attachment",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "Beam2",
+																			"className": "Beam",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "back",
+																			"className": "Attachment",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "Beam",
+																			"className": "Beam",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "VortexVFXBeams2",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "Beam2",
+																			"className": "Beam",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "Beam",
+																			"className": "Beam",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "Beam1",
+																			"className": "Beam",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "back",
+																			"className": "Attachment",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "Front",
+																			"className": "Attachment",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "VortexVFXBeams4",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "Beam2",
+																			"className": "Beam",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "Beam1",
+																			"className": "Beam",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "Beam",
+																			"className": "Beam",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "Front",
+																			"className": "Attachment",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "back",
+																			"className": "Attachment",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "VortexVFXBeams7",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "Front",
+																			"className": "Attachment",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "Beam2",
+																			"className": "Beam",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "Beam",
+																			"className": "Beam",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "back",
+																			"className": "Attachment",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "Beam1",
+																			"className": "Beam",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "VortexVFXBeams5",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "Beam",
+																			"className": "Beam",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "Front",
+																			"className": "Attachment",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "Beam2",
+																			"className": "Beam",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "back",
+																			"className": "Attachment",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "Beam1",
+																			"className": "Beam",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																}
+															]
+														}
+													]
+												},
+												{
+													"name": "Exhaust",
+													"className": "Model",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Exhaust_1",
+															"className": "Model",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "Pipe",
+																	"className": "MeshPart",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "Weld",
+																			"className": "Weld",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "Glow",
+																	"className": "MeshPart",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "FlamePink",
+																			"className": "Attachment",
+																			"filePaths": [],
+																			"children": [
+																				{
+																					"name": "ParticleEmitter1",
+																					"className": "ParticleEmitter",
+																					"filePaths": [],
+																					"children": []
+																				},
+																				{
+																					"name": "ParticleEmitter2",
+																					"className": "ParticleEmitter",
+																					"filePaths": [],
+																					"children": []
+																				}
+																			]
+																		},
+																		{
+																			"name": "Weld",
+																			"className": "Weld",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"name": "Exhaust_2",
+															"className": "Model",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "Glow",
+																	"className": "MeshPart",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "FlameGreen",
+																			"className": "Attachment",
+																			"filePaths": [],
+																			"children": [
+																				{
+																					"name": "ParticleEmitter1",
+																					"className": "ParticleEmitter",
+																					"filePaths": [],
+																					"children": []
+																				},
+																				{
+																					"name": "ParticleEmitter2",
+																					"className": "ParticleEmitter",
+																					"filePaths": [],
+																					"children": []
+																				}
+																			]
+																		},
+																		{
+																			"name": "Weld",
+																			"className": "Weld",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "Pipe",
+																	"className": "MeshPart",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "Weld",
+																			"className": "Weld",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"name": "Exhaust_3",
+															"className": "Model",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "Pipe",
+																	"className": "MeshPart",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "Weld",
+																			"className": "Weld",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "Glow",
+																	"className": "MeshPart",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "FlameBlue",
+																			"className": "Attachment",
+																			"filePaths": [],
+																			"children": [
+																				{
+																					"name": "ParticleEmitter2",
+																					"className": "ParticleEmitter",
+																					"filePaths": [],
+																					"children": []
+																				},
+																				{
+																					"name": "ParticleEmitter1",
+																					"className": "ParticleEmitter",
+																					"filePaths": [],
+																					"children": []
+																				}
+																			]
+																		},
+																		{
+																			"name": "Weld",
+																			"className": "Weld",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																}
+															]
+														}
+													]
+												},
+												{
+													"name": "Boost",
+													"className": "Model",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Jet_1",
+															"className": "Model",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "Black",
+																	"className": "MeshPart",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "Weld",
+																			"className": "Weld",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "Body",
+																	"className": "MeshPart",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "Fuel",
+																			"className": "Attachment",
+																			"filePaths": [],
+																			"children": [
+																				{
+																					"name": "2",
+																					"className": "Attachment",
+																					"filePaths": [],
+																					"children": [
+																						{
+																							"name": "ParticleEmitter",
+																							"className": "ParticleEmitter",
+																							"filePaths": [],
+																							"children": []
+																						},
+																						{
+																							"name": "ParticleEmitter4",
+																							"className": "ParticleEmitter",
+																							"filePaths": [],
+																							"children": []
+																						},
+																						{
+																							"name": "ParticleEmitter1",
+																							"className": "ParticleEmitter",
+																							"filePaths": [],
+																							"children": []
+																						},
+																						{
+																							"name": "ParticleEmitter5",
+																							"className": "ParticleEmitter",
+																							"filePaths": [],
+																							"children": []
+																						},
+																						{
+																							"name": "ParticleEmitter2",
+																							"className": "ParticleEmitter",
+																							"filePaths": [],
+																							"children": []
+																						},
+																						{
+																							"name": "ParticleEmitter3",
+																							"className": "ParticleEmitter",
+																							"filePaths": [],
+																							"children": []
+																						}
+																					]
+																				},
+																				{
+																					"name": "1",
+																					"className": "Attachment",
+																					"filePaths": [],
+																					"children": [
+																						{
+																							"name": "Fire1",
+																							"className": "ParticleEmitter",
+																							"filePaths": [],
+																							"children": []
+																						},
+																						{
+																							"name": "Fire",
+																							"className": "ParticleEmitter",
+																							"filePaths": [],
+																							"children": []
+																						}
+																					]
+																				}
+																			]
+																		},
+																		{
+																			"name": "Sword",
+																			"className": "Attachment",
+																			"filePaths": [],
+																			"children": [
+																				{
+																					"name": "1",
+																					"className": "Attachment",
+																					"filePaths": [],
+																					"children": [
+																						{
+																							"name": "ParticleEmitter",
+																							"className": "ParticleEmitter",
+																							"filePaths": [],
+																							"children": []
+																						},
+																						{
+																							"name": "ParticleEmitter3",
+																							"className": "ParticleEmitter",
+																							"filePaths": [],
+																							"children": []
+																						},
+																						{
+																							"name": "ParticleEmitter2",
+																							"className": "ParticleEmitter",
+																							"filePaths": [],
+																							"children": []
+																						},
+																						{
+																							"name": "ParticleEmitter4",
+																							"className": "ParticleEmitter",
+																							"filePaths": [],
+																							"children": []
+																						},
+																						{
+																							"name": "ParticleEmitter1",
+																							"className": "ParticleEmitter",
+																							"filePaths": [],
+																							"children": []
+																						},
+																						{
+																							"name": "ParticleEmitter5",
+																							"className": "ParticleEmitter",
+																							"filePaths": [],
+																							"children": []
+																						}
+																					]
+																				},
+																				{
+																					"name": "2",
+																					"className": "Attachment",
+																					"filePaths": [],
+																					"children": [
+																						{
+																							"name": "ParticleEmitter2",
+																							"className": "ParticleEmitter",
+																							"filePaths": [],
+																							"children": []
+																						},
+																						{
+																							"name": "ParticleEmitter1",
+																							"className": "ParticleEmitter",
+																							"filePaths": [],
+																							"children": []
+																						},
+																						{
+																							"name": "ParticleEmitter",
+																							"className": "ParticleEmitter",
+																							"filePaths": [],
+																							"children": []
+																						},
+																						{
+																							"name": "ParticleEmitter4",
+																							"className": "ParticleEmitter",
+																							"filePaths": [],
+																							"children": []
+																						},
+																						{
+																							"name": "ParticleEmitter5",
+																							"className": "ParticleEmitter",
+																							"filePaths": [],
+																							"children": []
+																						},
+																						{
+																							"name": "ParticleEmitter3",
+																							"className": "ParticleEmitter",
+																							"filePaths": [],
+																							"children": []
+																						}
+																					]
+																				},
+																				{
+																					"name": "3",
+																					"className": "Attachment",
+																					"filePaths": [],
+																					"children": [
+																						{
+																							"name": "Circles",
+																							"className": "ParticleEmitter",
+																							"filePaths": [],
+																							"children": []
+																						},
+																						{
+																							"name": "Sparks",
+																							"className": "ParticleEmitter",
+																							"filePaths": [],
+																							"children": []
+																						},
+																						{
+																							"name": "Flame",
+																							"className": "ParticleEmitter",
+																							"filePaths": [],
+																							"children": []
+																						},
+																						{
+																							"name": "Stars",
+																							"className": "ParticleEmitter",
+																							"filePaths": [],
+																							"children": []
+																						}
+																					]
+																				}
+																			]
+																		},
+																		{
+																			"name": "Weld",
+																			"className": "Weld",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "Glow",
+																	"className": "MeshPart",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "Weld",
+																			"className": "Weld",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"name": "Jet_2",
+															"className": "Model",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "Body",
+																	"className": "MeshPart",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "Sword",
+																			"className": "Attachment",
+																			"filePaths": [],
+																			"children": [
+																				{
+																					"name": "1",
+																					"className": "Attachment",
+																					"filePaths": [],
+																					"children": [
+																						{
+																							"name": "ParticleEmitter1",
+																							"className": "ParticleEmitter",
+																							"filePaths": [],
+																							"children": []
+																						},
+																						{
+																							"name": "ParticleEmitter",
+																							"className": "ParticleEmitter",
+																							"filePaths": [],
+																							"children": []
+																						},
+																						{
+																							"name": "ParticleEmitter5",
+																							"className": "ParticleEmitter",
+																							"filePaths": [],
+																							"children": []
+																						},
+																						{
+																							"name": "ParticleEmitter2",
+																							"className": "ParticleEmitter",
+																							"filePaths": [],
+																							"children": []
+																						},
+																						{
+																							"name": "ParticleEmitter3",
+																							"className": "ParticleEmitter",
+																							"filePaths": [],
+																							"children": []
+																						},
+																						{
+																							"name": "ParticleEmitter4",
+																							"className": "ParticleEmitter",
+																							"filePaths": [],
+																							"children": []
+																						}
+																					]
+																				},
+																				{
+																					"name": "2",
+																					"className": "Attachment",
+																					"filePaths": [],
+																					"children": [
+																						{
+																							"name": "ParticleEmitter3",
+																							"className": "ParticleEmitter",
+																							"filePaths": [],
+																							"children": []
+																						},
+																						{
+																							"name": "ParticleEmitter1",
+																							"className": "ParticleEmitter",
+																							"filePaths": [],
+																							"children": []
+																						},
+																						{
+																							"name": "ParticleEmitter",
+																							"className": "ParticleEmitter",
+																							"filePaths": [],
+																							"children": []
+																						},
+																						{
+																							"name": "ParticleEmitter4",
+																							"className": "ParticleEmitter",
+																							"filePaths": [],
+																							"children": []
+																						},
+																						{
+																							"name": "ParticleEmitter5",
+																							"className": "ParticleEmitter",
+																							"filePaths": [],
+																							"children": []
+																						},
+																						{
+																							"name": "ParticleEmitter2",
+																							"className": "ParticleEmitter",
+																							"filePaths": [],
+																							"children": []
+																						}
+																					]
+																				},
+																				{
+																					"name": "3",
+																					"className": "Attachment",
+																					"filePaths": [],
+																					"children": [
+																						{
+																							"name": "Flame",
+																							"className": "ParticleEmitter",
+																							"filePaths": [],
+																							"children": []
+																						},
+																						{
+																							"name": "Circles",
+																							"className": "ParticleEmitter",
+																							"filePaths": [],
+																							"children": []
+																						},
+																						{
+																							"name": "Sparks",
+																							"className": "ParticleEmitter",
+																							"filePaths": [],
+																							"children": []
+																						},
+																						{
+																							"name": "Stars",
+																							"className": "ParticleEmitter",
+																							"filePaths": [],
+																							"children": []
+																						}
+																					]
+																				}
+																			]
+																		},
+																		{
+																			"name": "Fuel",
+																			"className": "Attachment",
+																			"filePaths": [],
+																			"children": [
+																				{
+																					"name": "1",
+																					"className": "Attachment",
+																					"filePaths": [],
+																					"children": [
+																						{
+																							"name": "Fire1",
+																							"className": "ParticleEmitter",
+																							"filePaths": [],
+																							"children": []
+																						},
+																						{
+																							"name": "Fire",
+																							"className": "ParticleEmitter",
+																							"filePaths": [],
+																							"children": []
+																						}
+																					]
+																				},
+																				{
+																					"name": "2",
+																					"className": "Attachment",
+																					"filePaths": [],
+																					"children": [
+																						{
+																							"name": "ParticleEmitter2",
+																							"className": "ParticleEmitter",
+																							"filePaths": [],
+																							"children": []
+																						},
+																						{
+																							"name": "ParticleEmitter3",
+																							"className": "ParticleEmitter",
+																							"filePaths": [],
+																							"children": []
+																						},
+																						{
+																							"name": "ParticleEmitter1",
+																							"className": "ParticleEmitter",
+																							"filePaths": [],
+																							"children": []
+																						},
+																						{
+																							"name": "ParticleEmitter5",
+																							"className": "ParticleEmitter",
+																							"filePaths": [],
+																							"children": []
+																						},
+																						{
+																							"name": "ParticleEmitter",
+																							"className": "ParticleEmitter",
+																							"filePaths": [],
+																							"children": []
+																						},
+																						{
+																							"name": "ParticleEmitter4",
+																							"className": "ParticleEmitter",
+																							"filePaths": [],
+																							"children": []
+																						}
+																					]
+																				}
+																			]
+																		},
+																		{
+																			"name": "Weld",
+																			"className": "Weld",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "Black",
+																	"className": "MeshPart",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "Weld",
+																			"className": "Weld",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "Glow",
+																	"className": "MeshPart",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "Weld",
+																			"className": "Weld",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																}
+															]
+														}
+													]
+												},
+												{
+													"name": "FrontFenders",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Weld",
+															"className": "Weld",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												},
+												{
+													"name": "DecorSeat",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Decal",
+															"className": "Decal",
+															"filePaths": [],
+															"children": []
+														},
+														{
+															"name": "Weld",
+															"className": "Weld",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												},
+												{
+													"name": "Lights",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Weld",
+															"className": "Weld",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												},
+												{
+													"name": "Roof",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Decal",
+															"className": "Decal",
+															"filePaths": [],
+															"children": []
+														},
+														{
+															"name": "Weld",
+															"className": "Weld",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												},
+												{
+													"name": "Body",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "KartInFront",
+															"className": "ParticleEmitter",
+															"filePaths": [],
+															"children": []
+														},
+														{
+															"name": "Decal",
+															"className": "Decal",
+															"filePaths": [],
+															"children": []
+														},
+														{
+															"name": "SpawnFX",
+															"className": "Attachment",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "ParticleEmitter",
+																	"className": "ParticleEmitter",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "ParticleEmitter1",
+																	"className": "ParticleEmitter",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "ParticleEmitter2",
+																	"className": "ParticleEmitter",
+																	"filePaths": [],
+																	"children": []
+																}
+															]
+														},
+														{
+															"name": "DJVFX",
+															"className": "ParticleEmitter",
+															"filePaths": [],
+															"children": []
+														},
+														{
+															"name": "SABRINAVFX",
+															"className": "ParticleEmitter",
+															"filePaths": [],
+															"children": []
+														},
+														{
+															"name": "ForceField",
+															"className": "Attachment",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "ParticleEmitter1",
+																	"className": "ParticleEmitter",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "ParticleEmitter4",
+																	"className": "ParticleEmitter",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "ParticleEmitter",
+																	"className": "ParticleEmitter",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "ParticleEmitter3",
+																	"className": "ParticleEmitter",
+																	"filePaths": [],
+																	"children": []
+																}
+															]
+														},
+														{
+															"name": "Sound",
+															"className": "Sound",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "PitchShiftSoundEffect",
+																	"className": "PitchShiftSoundEffect",
+																	"filePaths": [],
+																	"children": []
+																}
+															]
+														}
+													]
+												},
+												{
+													"name": "BackFenders",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Weld",
+															"className": "Weld",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												},
+												{
+													"name": "TailLight",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Weld",
+															"className": "Weld",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												},
+												{
+													"name": "Beams",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Weld",
+															"className": "Weld",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												},
+												{
+													"name": "SteeringWheel",
+													"className": "Model",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Part",
+															"className": "MeshPart",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "Weld",
+																	"className": "Weld",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "LeftAtt",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "RightAtt",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": []
+																}
+															]
+														}
+													]
+												},
+												{
+													"name": "DummyRig",
+													"className": "Model",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Humanoid",
+															"className": "Humanoid",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "Animator",
+																	"className": "Animator",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "BodyTypeScale",
+																	"className": "NumberValue",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "BodyProportionScale",
+																	"className": "NumberValue",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "BodyWidthScale",
+																	"className": "NumberValue",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "BodyHeightScale",
+																	"className": "NumberValue",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "BodyDepthScale",
+																	"className": "NumberValue",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "HeadScale",
+																	"className": "NumberValue",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "HumanoidDescription",
+																	"className": "HumanoidDescription",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "BodyPartDescription",
+																			"className": "BodyPartDescription",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "AccessoryDescription",
+																			"className": "AccessoryDescription",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "HingeConstraint",
+																	"className": "HingeConstraint",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "LeftIK",
+																	"className": "IKControl",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "RightIK",
+																	"className": "IKControl",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "HeadIK",
+																	"className": "IKControl",
+																	"filePaths": [],
+																	"children": []
+																}
+															]
+														},
+														{
+															"name": "Body Colors",
+															"className": "BodyColors",
+															"filePaths": [],
+															"children": []
+														},
+														{
+															"name": "UpperTorso",
+															"className": "MeshPart",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "RightShoulderRigAttachment",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "OriginalPosition",
+																			"className": "Vector3Value",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "RightCollarAttachment",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "OriginalPosition",
+																			"className": "Vector3Value",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "WaistRigAttachment",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "OriginalPosition",
+																			"className": "Vector3Value",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "NeckRigAttachment",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "OriginalPosition",
+																			"className": "Vector3Value",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "BodyFrontAttachment",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "OriginalPosition",
+																			"className": "Vector3Value",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "LeftShoulderRigAttachment",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "OriginalPosition",
+																			"className": "Vector3Value",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "UpperTorso",
+																	"className": "WrapTarget",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "OriginalSize",
+																	"className": "Vector3Value",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "Waist",
+																	"className": "Motor6D",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "NeckAttachment",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "OriginalPosition",
+																			"className": "Vector3Value",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "LeftCollarAttachment",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "OriginalPosition",
+																			"className": "Vector3Value",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "BodyBackAttachment",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "OriginalPosition",
+																			"className": "Vector3Value",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"name": "LowerTorso",
+															"className": "MeshPart",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "OriginalSize",
+																	"className": "Vector3Value",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "RightHipRigAttachment",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "OriginalPosition",
+																			"className": "Vector3Value",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "RootRigAttachment",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "OriginalPosition",
+																			"className": "Vector3Value",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "Root",
+																	"className": "Motor6D",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "WaistFrontAttachment",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "OriginalPosition",
+																			"className": "Vector3Value",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "WaistBackAttachment",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "OriginalPosition",
+																			"className": "Vector3Value",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "WaistRigAttachment",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "OriginalPosition",
+																			"className": "Vector3Value",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "LeftHipRigAttachment",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "OriginalPosition",
+																			"className": "Vector3Value",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "WaistCenterAttachment",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "OriginalPosition",
+																			"className": "Vector3Value",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "LowerTorso",
+																	"className": "WrapTarget",
+																	"filePaths": [],
+																	"children": []
+																}
+															]
+														},
+														{
+															"name": "Head",
+															"className": "MeshPart",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "face",
+																	"className": "Decal",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "OriginalSize",
+																	"className": "Vector3Value",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "FaceCenterAttachment",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "OriginalPosition",
+																			"className": "Vector3Value",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "Neck",
+																	"className": "Motor6D",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "HairAttachment",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "OriginalPosition",
+																			"className": "Vector3Value",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "Head",
+																	"className": "WrapTarget",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "FaceFrontAttachment",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "OriginalPosition",
+																			"className": "Vector3Value",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "NeckRigAttachment",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "OriginalPosition",
+																			"className": "Vector3Value",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "HatAttachment",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "OriginalPosition",
+																			"className": "Vector3Value",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"name": "HumanoidRootPart",
+															"className": "Part",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "RootRigAttachment",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "OriginalPosition",
+																			"className": "Vector3Value",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "OriginalSize",
+																	"className": "Vector3Value",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "RootAttachment",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "OriginalPosition",
+																			"className": "Vector3Value",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "Attachment",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "OriginalPosition",
+																			"className": "Vector3Value",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"name": "Shirt",
+															"className": "Shirt",
+															"filePaths": [],
+															"children": []
+														},
+														{
+															"name": "RightHand",
+															"className": "MeshPart",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "RightHandWrapTarget",
+																	"className": "WrapTarget",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "RightGripAttachment",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "OriginalPosition",
+																			"className": "Vector3Value",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "RightWristRigAttachment",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "OriginalPosition",
+																			"className": "Vector3Value",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "AvatarPartScaleType",
+																	"className": "StringValue",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "OriginalSize",
+																	"className": "Vector3Value",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "RightWrist",
+																	"className": "Motor6D",
+																	"filePaths": [],
+																	"children": []
+																}
+															]
+														},
+														{
+															"name": "RightLowerArm",
+															"className": "MeshPart",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "RightLowerArmWrapTarget",
+																	"className": "WrapTarget",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "RightWristRigAttachment",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "OriginalPosition",
+																			"className": "Vector3Value",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "RightElbowRigAttachment",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "OriginalPosition",
+																			"className": "Vector3Value",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "AvatarPartScaleType",
+																	"className": "StringValue",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "OriginalSize",
+																	"className": "Vector3Value",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "RightElbow",
+																	"className": "Motor6D",
+																	"filePaths": [],
+																	"children": []
+																}
+															]
+														},
+														{
+															"name": "RightUpperArm",
+															"className": "MeshPart",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "RightUpperArmWrapTarget",
+																	"className": "WrapTarget",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "RightShoulderAttachment",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "OriginalPosition",
+																			"className": "Vector3Value",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "RightElbowRigAttachment",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "OriginalPosition",
+																			"className": "Vector3Value",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "RightShoulderRigAttachment",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "OriginalPosition",
+																			"className": "Vector3Value",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "AvatarPartScaleType",
+																	"className": "StringValue",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "OriginalSize",
+																	"className": "Vector3Value",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "RightShoulder",
+																	"className": "Motor6D",
+																	"filePaths": [],
+																	"children": []
+																}
+															]
+														},
+														{
+															"name": "Pants",
+															"className": "Pants",
+															"filePaths": [],
+															"children": []
+														},
+														{
+															"name": "LeftLowerArm",
+															"className": "MeshPart",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "LeftLowerArmWrapTarget",
+																	"className": "WrapTarget",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "LeftWristRigAttachment",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "OriginalPosition",
+																			"className": "Vector3Value",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "LeftElbowRigAttachment",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "OriginalPosition",
+																			"className": "Vector3Value",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "AvatarPartScaleType",
+																	"className": "StringValue",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "OriginalSize",
+																	"className": "Vector3Value",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "LeftElbow",
+																	"className": "Motor6D",
+																	"filePaths": [],
+																	"children": []
+																}
+															]
+														},
+														{
+															"name": "LeftUpperArm",
+															"className": "MeshPart",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "LeftUpperArmWrapTarget",
+																	"className": "WrapTarget",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "LeftShoulderAttachment",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "OriginalPosition",
+																			"className": "Vector3Value",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "LeftElbowRigAttachment",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "OriginalPosition",
+																			"className": "Vector3Value",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "LeftShoulderRigAttachment",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "OriginalPosition",
+																			"className": "Vector3Value",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "AvatarPartScaleType",
+																	"className": "StringValue",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "OriginalSize",
+																	"className": "Vector3Value",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "LeftShoulder",
+																	"className": "Motor6D",
+																	"filePaths": [],
+																	"children": []
+																}
+															]
+														},
+														{
+															"name": "LeftHand",
+															"className": "MeshPart",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "LeftHandWrapTarget",
+																	"className": "WrapTarget",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "LeftGripAttachment",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "OriginalPosition",
+																			"className": "Vector3Value",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "LeftWristRigAttachment",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "OriginalPosition",
+																			"className": "Vector3Value",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "AvatarPartScaleType",
+																	"className": "StringValue",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "OriginalSize",
+																	"className": "Vector3Value",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "LeftWrist",
+																	"className": "Motor6D",
+																	"filePaths": [],
+																	"children": []
+																}
+															]
+														},
+														{
+															"name": "LeftFoot",
+															"className": "MeshPart",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "LeftFootWrapTarget",
+																	"className": "WrapTarget",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "LeftFootAttachment",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "OriginalPosition",
+																			"className": "Vector3Value",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "LeftAnkleRigAttachment",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "OriginalPosition",
+																			"className": "Vector3Value",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "AvatarPartScaleType",
+																	"className": "StringValue",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "OriginalSize",
+																	"className": "Vector3Value",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "LeftAnkle",
+																	"className": "Motor6D",
+																	"filePaths": [],
+																	"children": []
+																}
+															]
+														},
+														{
+															"name": "LeftUpperLeg",
+															"className": "MeshPart",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "LeftUpperLegWrapTarget",
+																	"className": "WrapTarget",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "LeftKneeRigAttachment",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "OriginalPosition",
+																			"className": "Vector3Value",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "LeftHipRigAttachment",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "OriginalPosition",
+																			"className": "Vector3Value",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "AvatarPartScaleType",
+																	"className": "StringValue",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "OriginalSize",
+																	"className": "Vector3Value",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "LeftHip",
+																	"className": "Motor6D",
+																	"filePaths": [],
+																	"children": []
+																}
+															]
+														},
+														{
+															"name": "LeftLowerLeg",
+															"className": "MeshPart",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "LeftLowerLegWrapTarget",
+																	"className": "WrapTarget",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "LeftAnkleRigAttachment",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "OriginalPosition",
+																			"className": "Vector3Value",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "LeftKneeRigAttachment",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "OriginalPosition",
+																			"className": "Vector3Value",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "AvatarPartScaleType",
+																	"className": "StringValue",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "OriginalSize",
+																	"className": "Vector3Value",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "LeftKnee",
+																	"className": "Motor6D",
+																	"filePaths": [],
+																	"children": []
+																}
+															]
+														},
+														{
+															"name": "RightLowerLeg",
+															"className": "MeshPart",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "RightLowerLegWrapTarget",
+																	"className": "WrapTarget",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "RightAnkleRigAttachment",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "OriginalPosition",
+																			"className": "Vector3Value",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "RightKneeRigAttachment",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "OriginalPosition",
+																			"className": "Vector3Value",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "AvatarPartScaleType",
+																	"className": "StringValue",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "OriginalSize",
+																	"className": "Vector3Value",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "RightKnee",
+																	"className": "Motor6D",
+																	"filePaths": [],
+																	"children": []
+																}
+															]
+														},
+														{
+															"name": "RightFoot",
+															"className": "MeshPart",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "RightFootWrapTarget",
+																	"className": "WrapTarget",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "RightFootAttachment",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "OriginalPosition",
+																			"className": "Vector3Value",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "RightAnkleRigAttachment",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "OriginalPosition",
+																			"className": "Vector3Value",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "AvatarPartScaleType",
+																	"className": "StringValue",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "OriginalSize",
+																	"className": "Vector3Value",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "RightAnkle",
+																	"className": "Motor6D",
+																	"filePaths": [],
+																	"children": []
+																}
+															]
+														},
+														{
+															"name": "RightUpperLeg",
+															"className": "MeshPart",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "RightUpperLegWrapTarget",
+																	"className": "WrapTarget",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "RightKneeRigAttachment",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "OriginalPosition",
+																			"className": "Vector3Value",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "RightHipRigAttachment",
+																	"className": "Attachment",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "OriginalPosition",
+																			"className": "Vector3Value",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"name": "AvatarPartScaleType",
+																	"className": "StringValue",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "OriginalSize",
+																	"className": "Vector3Value",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "RightHip",
+																	"className": "Motor6D",
+																	"filePaths": [],
+																	"children": []
+																}
+															]
+														},
+														{
+															"name": "BlueSteelBatHelm",
+															"className": "Accessory",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "Handle",
+																	"className": "MeshPart",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "HatAttachment",
+																			"className": "Attachment",
+																			"filePaths": [],
+																			"children": [
+																				{
+																					"name": "OriginalPosition",
+																					"className": "Vector3Value",
+																					"filePaths": [],
+																					"children": []
+																				}
+																			]
+																		},
+																		{
+																			"name": "OriginalSize",
+																			"className": "Vector3Value",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "AccessoryWeld",
+																			"className": "Weld",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"name": "ValkyrieHelm",
+															"className": "Accessory",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "ThumbnailCamera",
+																	"className": "Camera",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "Handle",
+																	"className": "MeshPart",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "HatAttachment",
+																			"className": "Attachment",
+																			"filePaths": [],
+																			"children": [
+																				{
+																					"name": "OriginalPosition",
+																					"className": "Vector3Value",
+																					"filePaths": [],
+																					"children": []
+																				}
+																			]
+																		},
+																		{
+																			"name": "OriginalSize",
+																			"className": "Vector3Value",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "AccessoryWeld",
+																			"className": "Weld",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"name": "KnightHelmet",
+															"className": "Accessory",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "Handle",
+																	"className": "MeshPart",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "HatAttachment",
+																			"className": "Attachment",
+																			"filePaths": [],
+																			"children": [
+																				{
+																					"name": "OriginalPosition",
+																					"className": "Vector3Value",
+																					"filePaths": [],
+																					"children": []
+																				}
+																			]
+																		},
+																		{
+																			"name": "OriginalSize",
+																			"className": "Vector3Value",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "AccessoryWeld",
+																			"className": "Weld",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"name": "BlueCape",
+															"className": "Accessory",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "Handle",
+																	"className": "MeshPart",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "AvatarPartScaleType",
+																			"className": "StringValue",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "BodyBackAttachment",
+																			"className": "Attachment",
+																			"filePaths": [],
+																			"children": [
+																				{
+																					"name": "OriginalPosition",
+																					"className": "Vector3Value",
+																					"filePaths": [],
+																					"children": []
+																				}
+																			]
+																		},
+																		{
+																			"name": "OriginalSize",
+																			"className": "Vector3Value",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "AccessoryWeld",
+																			"className": "Weld",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"name": "GoldenRapier",
+															"className": "Accessory",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "Handle",
+																	"className": "MeshPart",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "AvatarPartScaleType",
+																			"className": "StringValue",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "WaistBackAttachment",
+																			"className": "Attachment",
+																			"filePaths": [],
+																			"children": [
+																				{
+																					"name": "OriginalPosition",
+																					"className": "Vector3Value",
+																					"filePaths": [],
+																					"children": []
+																				}
+																			]
+																		},
+																		{
+																			"name": "OriginalSize",
+																			"className": "Vector3Value",
+																			"filePaths": [],
+																			"children": []
+																		},
+																		{
+																			"name": "AccessoryWeld",
+																			"className": "Weld",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "CamPart",
+											"className": "Part",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "Weld",
+													"className": "Weld",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										},
+										{
+											"name": "AntiGrav",
+											"className": "VectorForce",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "AlignPosition",
+											"className": "AlignPosition",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "AlignOrientation",
+											"className": "AlignOrientation",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "VectorForce",
+											"className": "VectorForce",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "KartRig",
+											"className": "Model",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "AnimSaves",
+													"className": "ObjectValue",
+													"filePaths": [],
+													"children": []
+												},
+												{
+													"name": "AnimationController",
+													"className": "AnimationController",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Animator",
+															"className": "Animator",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												},
+												{
+													"name": "RootPart",
+													"className": "Part",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Bone",
+															"className": "Bone",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							],
+							"filePaths": [
+								"Assets/Replicated/Vespas.rbxm"
+							]
 						}
 					],
 					"filePaths": [

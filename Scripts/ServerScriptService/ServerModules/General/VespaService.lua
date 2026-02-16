@@ -7,12 +7,16 @@ local VespaService = {}
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local Workspace = game:GetService("Workspace")
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- Modules
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 local Remotes = require(ReplicatedStorage.Source.Pronghorn.Remotes)
+local New = require(ReplicatedStorage.Source.Pronghorn.New)
+
+local Utility = require(ReplicatedStorage.Source.SharedModules.Other.Utility)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- Constants
@@ -26,6 +30,10 @@ local Remotes = require(ReplicatedStorage.Source.Pronghorn.Remotes)
 -- Variables
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+local VespaFolder: Folder = nil
+
+local Assets = ReplicatedStorage.Assets
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- Private Functions
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -34,14 +42,29 @@ local Remotes = require(ReplicatedStorage.Source.Pronghorn.Remotes)
 -- Public API
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-function VespaService.RequestVespa(Player: Player, Here: CFrame?): number
-    warn("Success!")
-    return 1
+function VespaService.RequestVespa(Player: Player, VespaName: string, Here: CFrame?): string
+    local Alive, _, Root = Utility.CheckPlayerAlive(Player)
+    if not Alive or not Root then return "Player dead" end
+    
+    local Model = Assets.Vespas:FindFirstChild(VespaName)
+    if not Model then return "Vespa model missing!" end
+
+    if not Here then
+        Here = Root.CFrame * CFrame.new(0, 20, -20)
+    end
+
+    local NewVespa = Model:Clone()
+    NewVespa.Parent = VespaFolder
+    
+    return "Success"
 end
 
 function VespaService:Init()
-    Remotes:CreateToServer("RequestVespa", {"CFrame?"}, "Returns", function(Player: Player, Here: CFrame)
-        return VespaService.RequestVespa(Player, Here)
+    local NewFolder = New.Instance("Folder", "Vespas", Workspace)
+    VespaFolder = NewFolder
+
+    Remotes:CreateToServer("RequestVespa", {"string", "CFrame?"}, "Returns", function(Player: Player, VespaName: string, Here: CFrame?)
+        return VespaService.RequestVespa(Player, VespaName, Here)
     end)
 end
 
