@@ -2168,908 +2168,6 @@
 							"className": "Folder",
 							"children": [
 								{
-									"name": "Standard",
-									"className": "Model",
-									"filePaths": [],
-									"children": [
-										{
-											"name": "FrontWheel",
-											"className": "Model",
-											"filePaths": [],
-											"children": [
-												{
-													"name": "Cap",
-													"className": "MeshPart",
-													"filePaths": [],
-													"children": [
-														{
-															"name": "SurfaceAppearance",
-															"className": "SurfaceAppearance",
-															"filePaths": [],
-															"children": []
-														}
-													]
-												},
-												{
-													"name": "Cover",
-													"className": "MeshPart",
-													"filePaths": [],
-													"children": [
-														{
-															"name": "SurfaceAppearance",
-															"className": "SurfaceAppearance",
-															"filePaths": [],
-															"children": []
-														}
-													]
-												},
-												{
-													"name": "Wheel",
-													"className": "MeshPart",
-													"filePaths": [],
-													"children": [
-														{
-															"name": "Cover",
-															"className": "Weld",
-															"filePaths": [],
-															"children": []
-														},
-														{
-															"name": "Cap",
-															"className": "Weld",
-															"filePaths": [],
-															"children": []
-														}
-													]
-												}
-											]
-										},
-										{
-											"name": "BackWheel",
-											"className": "Model",
-											"filePaths": [],
-											"children": [
-												{
-													"name": "Cap",
-													"className": "MeshPart",
-													"filePaths": [],
-													"children": [
-														{
-															"name": "SurfaceAppearance",
-															"className": "SurfaceAppearance",
-															"filePaths": [],
-															"children": []
-														}
-													]
-												},
-												{
-													"name": "Cover",
-													"className": "MeshPart",
-													"filePaths": [],
-													"children": [
-														{
-															"name": "SurfaceAppearance",
-															"className": "SurfaceAppearance",
-															"filePaths": [],
-															"children": []
-														}
-													]
-												},
-												{
-													"name": "Wheel",
-													"className": "MeshPart",
-													"filePaths": [],
-													"children": [
-														{
-															"name": "Cover",
-															"className": "Weld",
-															"filePaths": [],
-															"children": []
-														},
-														{
-															"name": "Cap",
-															"className": "Weld",
-															"filePaths": [],
-															"children": []
-														}
-													]
-												}
-											]
-										},
-										{
-											"name": "SteerBase",
-											"className": "MeshPart",
-											"filePaths": [],
-											"children": [
-												{
-													"name": "SurfaceAppearance",
-													"className": "SurfaceAppearance",
-													"filePaths": [],
-													"children": []
-												},
-												{
-													"name": "HeadlightTrim",
-													"className": "Weld",
-													"filePaths": [],
-													"children": []
-												},
-												{
-													"name": "Headlight",
-													"className": "Weld",
-													"filePaths": [],
-													"children": []
-												},
-												{
-													"name": "Handlebar",
-													"className": "Weld",
-													"filePaths": [],
-													"children": []
-												},
-												{
-													"name": "HandlebarCovers",
-													"className": "Weld",
-													"filePaths": [],
-													"children": []
-												}
-											]
-										},
-										{
-											"name": "Headlight",
-											"className": "MeshPart",
-											"filePaths": [],
-											"children": [
-												{
-													"name": "SpotLight",
-													"className": "SpotLight",
-													"filePaths": [],
-													"children": []
-												}
-											]
-										},
-										{
-											"name": "HandlebarCovers",
-											"className": "MeshPart",
-											"filePaths": [],
-											"children": [
-												{
-													"name": "SurfaceAppearance",
-													"className": "SurfaceAppearance",
-													"filePaths": [],
-													"children": []
-												}
-											]
-										},
-										{
-											"name": "Handlebar",
-											"className": "MeshPart",
-											"filePaths": [],
-											"children": []
-										},
-										{
-											"name": "HeadlightTrim",
-											"className": "MeshPart",
-											"filePaths": [],
-											"children": []
-										},
-										{
-											"name": "Crest",
-											"className": "MeshPart",
-											"filePaths": [],
-											"children": [
-												{
-													"name": "SurfaceAppearance",
-													"className": "SurfaceAppearance",
-													"filePaths": [],
-													"children": []
-												}
-											]
-										},
-										{
-											"name": "WheelFin",
-											"className": "MeshPart",
-											"filePaths": [],
-											"children": [
-												{
-													"name": "SurfaceAppearance",
-													"className": "SurfaceAppearance",
-													"filePaths": [],
-													"children": []
-												}
-											]
-										},
-										{
-											"name": "FinMetal",
-											"className": "MeshPart",
-											"filePaths": [],
-											"children": [
-												{
-													"name": "SurfaceAppearance",
-													"className": "SurfaceAppearance",
-													"filePaths": [],
-													"children": []
-												}
-											]
-										},
-										{
-											"name": "FrontBaseMetal",
-											"className": "MeshPart",
-											"filePaths": [],
-											"children": [
-												{
-													"name": "SurfaceAppearance",
-													"className": "SurfaceAppearance",
-													"filePaths": [],
-													"children": []
-												}
-											]
-										},
-										{
-											"name": "FrontBase",
-											"className": "MeshPart",
-											"filePaths": [],
-											"children": [
-												{
-													"name": "FrontBaseTrim",
-													"className": "Weld",
-													"filePaths": [],
-													"children": []
-												},
-												{
-													"name": "Crest",
-													"className": "Weld",
-													"filePaths": [],
-													"children": []
-												},
-												{
-													"name": "FrontBaseMetal",
-													"className": "Weld",
-													"filePaths": [],
-													"children": []
-												},
-												{
-													"name": "SeatBase",
-													"className": "Weld",
-													"filePaths": [],
-													"children": []
-												},
-												{
-													"name": "Cushion",
-													"className": "Weld",
-													"filePaths": [],
-													"children": []
-												},
-												{
-													"name": "CushionBolts",
-													"className": "Weld",
-													"filePaths": [],
-													"children": []
-												},
-												{
-													"name": "FloorBoard",
-													"className": "Weld",
-													"filePaths": [],
-													"children": []
-												},
-												{
-													"name": "BackBar",
-													"className": "Weld",
-													"filePaths": [],
-													"children": []
-												},
-												{
-													"name": "PartA",
-													"className": "Weld",
-													"filePaths": [],
-													"children": []
-												},
-												{
-													"name": "SurfaceAppearance",
-													"className": "SurfaceAppearance",
-													"filePaths": [],
-													"children": []
-												},
-												{
-													"name": "Mesh",
-													"className": "SpecialMesh",
-													"filePaths": [],
-													"children": []
-												}
-											]
-										},
-										{
-											"name": "DriveBar",
-											"className": "MeshPart",
-											"filePaths": [],
-											"children": [
-												{
-													"name": "SurfaceAppearance",
-													"className": "SurfaceAppearance",
-													"filePaths": [],
-													"children": []
-												}
-											]
-										},
-										{
-											"name": "CushionBolts",
-											"className": "MeshPart",
-											"filePaths": [],
-											"children": [
-												{
-													"name": "SurfaceAppearance",
-													"className": "SurfaceAppearance",
-													"filePaths": [],
-													"children": []
-												}
-											]
-										},
-										{
-											"name": "FrontBaseTrim",
-											"className": "MeshPart",
-											"filePaths": [],
-											"children": [
-												{
-													"name": "SurfaceAppearance",
-													"className": "SurfaceAppearance",
-													"filePaths": [],
-													"children": []
-												}
-											]
-										},
-										{
-											"name": "Cushion",
-											"className": "MeshPart",
-											"filePaths": [],
-											"children": [
-												{
-													"name": "SurfaceAppearance",
-													"className": "SurfaceAppearance",
-													"filePaths": [],
-													"children": []
-												}
-											]
-										},
-										{
-											"name": "BackBar",
-											"className": "MeshPart",
-											"filePaths": [],
-											"children": [
-												{
-													"name": "SurfaceAppearance",
-													"className": "SurfaceAppearance",
-													"filePaths": [],
-													"children": []
-												}
-											]
-										},
-										{
-											"name": "FloorBoard",
-											"className": "MeshPart",
-											"filePaths": [],
-											"children": [
-												{
-													"name": "SurfaceAppearance",
-													"className": "SurfaceAppearance",
-													"filePaths": [],
-													"children": []
-												}
-											]
-										},
-										{
-											"name": "SeatBase",
-											"className": "MeshPart",
-											"filePaths": [],
-											"children": [
-												{
-													"name": "SurfaceAppearance",
-													"className": "SurfaceAppearance",
-													"filePaths": [],
-													"children": []
-												}
-											]
-										},
-										{
-											"name": "RightHatch",
-											"className": "MeshPart",
-											"filePaths": [],
-											"children": [
-												{
-													"name": "SurfaceAppearance",
-													"className": "SurfaceAppearance",
-													"filePaths": [],
-													"children": []
-												}
-											]
-										},
-										{
-											"name": "LeftHatch",
-											"className": "MeshPart",
-											"filePaths": [],
-											"children": [
-												{
-													"name": "SurfaceAppearance",
-													"className": "SurfaceAppearance",
-													"filePaths": [],
-													"children": []
-												}
-											]
-										},
-										{
-											"name": "RightPipe1",
-											"className": "MeshPart",
-											"filePaths": [],
-											"children": [
-												{
-													"name": "SurfaceAppearance",
-													"className": "SurfaceAppearance",
-													"filePaths": [],
-													"children": []
-												}
-											]
-										},
-										{
-											"name": "LeftPipe2",
-											"className": "MeshPart",
-											"filePaths": [],
-											"children": [
-												{
-													"name": "SurfaceAppearance",
-													"className": "SurfaceAppearance",
-													"filePaths": [],
-													"children": []
-												}
-											]
-										},
-										{
-											"name": "LeftPipe1",
-											"className": "MeshPart",
-											"filePaths": [],
-											"children": [
-												{
-													"name": "SurfaceAppearance",
-													"className": "SurfaceAppearance",
-													"filePaths": [],
-													"children": []
-												}
-											]
-										},
-										{
-											"name": "RightPipe2",
-											"className": "MeshPart",
-											"filePaths": [],
-											"children": [
-												{
-													"name": "SurfaceAppearance",
-													"className": "SurfaceAppearance",
-													"filePaths": [],
-													"children": []
-												}
-											]
-										},
-										{
-											"name": "PartB",
-											"className": "Part",
-											"filePaths": [],
-											"children": [
-												{
-													"name": "Attachment",
-													"className": "Attachment",
-													"filePaths": [],
-													"children": []
-												}
-											]
-										},
-										{
-											"name": "PartA",
-											"className": "Part",
-											"filePaths": [],
-											"children": [
-												{
-													"name": "HingeConstraint",
-													"className": "HingeConstraint",
-													"filePaths": [],
-													"children": []
-												},
-												{
-													"name": "Attachment",
-													"className": "Attachment",
-													"filePaths": [],
-													"children": []
-												}
-											]
-										},
-										{
-											"name": "Build",
-											"className": "Model",
-											"filePaths": [],
-											"children": [
-												{
-													"name": "Crest",
-													"className": "MeshPart",
-													"filePaths": [],
-													"children": [
-														{
-															"name": "SurfaceAppearance",
-															"className": "SurfaceAppearance",
-															"filePaths": [],
-															"children": []
-														}
-													]
-												},
-												{
-													"name": "SeatBase",
-													"className": "MeshPart",
-													"filePaths": [],
-													"children": [
-														{
-															"name": "SurfaceAppearance",
-															"className": "SurfaceAppearance",
-															"filePaths": [],
-															"children": []
-														}
-													]
-												},
-												{
-													"name": "RightPipe2",
-													"className": "MeshPart",
-													"filePaths": [],
-													"children": [
-														{
-															"name": "SurfaceAppearance",
-															"className": "SurfaceAppearance",
-															"filePaths": [],
-															"children": []
-														}
-													]
-												},
-												{
-													"name": "RightPipe1",
-													"className": "MeshPart",
-													"filePaths": [],
-													"children": [
-														{
-															"name": "SurfaceAppearance",
-															"className": "SurfaceAppearance",
-															"filePaths": [],
-															"children": []
-														}
-													]
-												},
-												{
-													"name": "RightHatch",
-													"className": "MeshPart",
-													"filePaths": [],
-													"children": [
-														{
-															"name": "SurfaceAppearance",
-															"className": "SurfaceAppearance",
-															"filePaths": [],
-															"children": []
-														}
-													]
-												},
-												{
-													"name": "LeftPipe2",
-													"className": "MeshPart",
-													"filePaths": [],
-													"children": [
-														{
-															"name": "SurfaceAppearance",
-															"className": "SurfaceAppearance",
-															"filePaths": [],
-															"children": []
-														}
-													]
-												},
-												{
-													"name": "LeftPipe1",
-													"className": "MeshPart",
-													"filePaths": [],
-													"children": [
-														{
-															"name": "SurfaceAppearance",
-															"className": "SurfaceAppearance",
-															"filePaths": [],
-															"children": []
-														}
-													]
-												},
-												{
-													"name": "LeftHatch",
-													"className": "MeshPart",
-													"filePaths": [],
-													"children": [
-														{
-															"name": "SurfaceAppearance",
-															"className": "SurfaceAppearance",
-															"filePaths": [],
-															"children": []
-														}
-													]
-												},
-												{
-													"name": "Cushion",
-													"className": "MeshPart",
-													"filePaths": [],
-													"children": [
-														{
-															"name": "SurfaceAppearance",
-															"className": "SurfaceAppearance",
-															"filePaths": [],
-															"children": []
-														}
-													]
-												},
-												{
-													"name": "CushionBolts",
-													"className": "MeshPart",
-													"filePaths": [],
-													"children": [
-														{
-															"name": "SurfaceAppearance",
-															"className": "SurfaceAppearance",
-															"filePaths": [],
-															"children": []
-														}
-													]
-												},
-												{
-													"name": "BackBar",
-													"className": "MeshPart",
-													"filePaths": [],
-													"children": [
-														{
-															"name": "SurfaceAppearance",
-															"className": "SurfaceAppearance",
-															"filePaths": [],
-															"children": []
-														}
-													]
-												},
-												{
-													"name": "FrontBaseTrim",
-													"className": "MeshPart",
-													"filePaths": [],
-													"children": [
-														{
-															"name": "SurfaceAppearance",
-															"className": "SurfaceAppearance",
-															"filePaths": [],
-															"children": []
-														}
-													]
-												},
-												{
-													"name": "FrontBaseMetal",
-													"className": "MeshPart",
-													"filePaths": [],
-													"children": [
-														{
-															"name": "SurfaceAppearance",
-															"className": "SurfaceAppearance",
-															"filePaths": [],
-															"children": []
-														}
-													]
-												},
-												{
-													"name": "FrontBase",
-													"className": "MeshPart",
-													"filePaths": [],
-													"children": [
-														{
-															"name": "FrontBaseTrim",
-															"className": "Weld",
-															"filePaths": [],
-															"children": []
-														},
-														{
-															"name": "Crest",
-															"className": "Weld",
-															"filePaths": [],
-															"children": []
-														},
-														{
-															"name": "FrontBaseMetal",
-															"className": "Weld",
-															"filePaths": [],
-															"children": []
-														},
-														{
-															"name": "SeatBase",
-															"className": "Weld",
-															"filePaths": [],
-															"children": []
-														},
-														{
-															"name": "Cushion",
-															"className": "Weld",
-															"filePaths": [],
-															"children": []
-														},
-														{
-															"name": "CushionBolts",
-															"className": "Weld",
-															"filePaths": [],
-															"children": []
-														},
-														{
-															"name": "FloorBoard",
-															"className": "Weld",
-															"filePaths": [],
-															"children": []
-														},
-														{
-															"name": "BackBar",
-															"className": "Weld",
-															"filePaths": [],
-															"children": []
-														},
-														{
-															"name": "SurfaceAppearance",
-															"className": "SurfaceAppearance",
-															"filePaths": [],
-															"children": []
-														},
-														{
-															"name": "Mesh",
-															"className": "SpecialMesh",
-															"filePaths": [],
-															"children": []
-														}
-													]
-												},
-												{
-													"name": "FloorBoard",
-													"className": "MeshPart",
-													"filePaths": [],
-													"children": [
-														{
-															"name": "SurfaceAppearance",
-															"className": "SurfaceAppearance",
-															"filePaths": [],
-															"children": []
-														}
-													]
-												},
-												{
-													"name": "HandleBar",
-													"className": "Model",
-													"filePaths": [],
-													"children": [
-														{
-															"name": "HandlebarCovers",
-															"className": "MeshPart",
-															"filePaths": [],
-															"children": [
-																{
-																	"name": "SurfaceAppearance",
-																	"className": "SurfaceAppearance",
-																	"filePaths": [],
-																	"children": []
-																}
-															]
-														},
-														{
-															"name": "Handlebar",
-															"className": "MeshPart",
-															"filePaths": [],
-															"children": []
-														},
-														{
-															"name": "SteerBase",
-															"className": "MeshPart",
-															"filePaths": [],
-															"children": [
-																{
-																	"name": "SurfaceAppearance",
-																	"className": "SurfaceAppearance",
-																	"filePaths": [],
-																	"children": []
-																},
-																{
-																	"name": "HeadlightTrim",
-																	"className": "Weld",
-																	"filePaths": [],
-																	"children": []
-																},
-																{
-																	"name": "Headlight",
-																	"className": "Weld",
-																	"filePaths": [],
-																	"children": []
-																},
-																{
-																	"name": "Handlebar",
-																	"className": "Weld",
-																	"filePaths": [],
-																	"children": []
-																},
-																{
-																	"name": "HandlebarCovers",
-																	"className": "Weld",
-																	"filePaths": [],
-																	"children": []
-																}
-															]
-														},
-														{
-															"name": "HeadlightTrim",
-															"className": "MeshPart",
-															"filePaths": [],
-															"children": []
-														},
-														{
-															"name": "Headlight",
-															"className": "MeshPart",
-															"filePaths": [],
-															"children": [
-																{
-																	"name": "SpotLight",
-																	"className": "SpotLight",
-																	"filePaths": [],
-																	"children": []
-																}
-															]
-														},
-														{
-															"name": "DriveBar",
-															"className": "MeshPart",
-															"filePaths": [],
-															"children": [
-																{
-																	"name": "SurfaceAppearance",
-																	"className": "SurfaceAppearance",
-																	"filePaths": [],
-																	"children": []
-																}
-															]
-														},
-														{
-															"name": "WheelFin",
-															"className": "MeshPart",
-															"filePaths": [],
-															"children": [
-																{
-																	"name": "SurfaceAppearance",
-																	"className": "SurfaceAppearance",
-																	"filePaths": [],
-																	"children": []
-																}
-															]
-														},
-														{
-															"name": "FinMetal",
-															"className": "MeshPart",
-															"filePaths": [],
-															"children": [
-																{
-																	"name": "SurfaceAppearance",
-																	"className": "SurfaceAppearance",
-																	"filePaths": [],
-																	"children": []
-																}
-															]
-														}
-													]
-												}
-											]
-										},
-										{
-											"name": "Hitbox",
-											"className": "Model",
-											"filePaths": [],
-											"children": [
-												{
-													"name": "Part",
-													"className": "Part",
-													"filePaths": [],
-													"children": []
-												}
-											]
-										}
-									]
-								},
-								{
 									"name": "StandardBlue",
 									"className": "Model",
 									"filePaths": [],
@@ -6631,6 +5729,507 @@
 											]
 										}
 									]
+								},
+								{
+									"name": "Standard",
+									"className": "Model",
+									"filePaths": [],
+									"children": [
+										{
+											"name": "FrontWheel",
+											"className": "Model",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "Cap",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "SurfaceAppearance",
+															"className": "SurfaceAppearance",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												},
+												{
+													"name": "Cover",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "SurfaceAppearance",
+															"className": "SurfaceAppearance",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												},
+												{
+													"name": "Wheel",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Cover",
+															"className": "Weld",
+															"filePaths": [],
+															"children": []
+														},
+														{
+															"name": "Cap",
+															"className": "Weld",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "BackWheel",
+											"className": "Model",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "Cap",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "SurfaceAppearance",
+															"className": "SurfaceAppearance",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												},
+												{
+													"name": "Cover",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "SurfaceAppearance",
+															"className": "SurfaceAppearance",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												},
+												{
+													"name": "Wheel",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Cover",
+															"className": "Weld",
+															"filePaths": [],
+															"children": []
+														},
+														{
+															"name": "Cap",
+															"className": "Weld",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "Build",
+											"className": "Model",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "Crest",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "SurfaceAppearance",
+															"className": "SurfaceAppearance",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												},
+												{
+													"name": "SeatBase",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "SurfaceAppearance",
+															"className": "SurfaceAppearance",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												},
+												{
+													"name": "RightPipe2",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "SurfaceAppearance",
+															"className": "SurfaceAppearance",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												},
+												{
+													"name": "RightPipe1",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "SurfaceAppearance",
+															"className": "SurfaceAppearance",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												},
+												{
+													"name": "RightHatch",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "SurfaceAppearance",
+															"className": "SurfaceAppearance",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												},
+												{
+													"name": "LeftPipe2",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "SurfaceAppearance",
+															"className": "SurfaceAppearance",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												},
+												{
+													"name": "LeftPipe1",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "SurfaceAppearance",
+															"className": "SurfaceAppearance",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												},
+												{
+													"name": "LeftHatch",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "SurfaceAppearance",
+															"className": "SurfaceAppearance",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												},
+												{
+													"name": "Cushion",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "SurfaceAppearance",
+															"className": "SurfaceAppearance",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												},
+												{
+													"name": "CushionBolts",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "SurfaceAppearance",
+															"className": "SurfaceAppearance",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												},
+												{
+													"name": "BackBar",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "SurfaceAppearance",
+															"className": "SurfaceAppearance",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												},
+												{
+													"name": "FrontBaseTrim",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "SurfaceAppearance",
+															"className": "SurfaceAppearance",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												},
+												{
+													"name": "FrontBaseMetal",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "SurfaceAppearance",
+															"className": "SurfaceAppearance",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												},
+												{
+													"name": "FrontBase",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "FrontBaseTrim",
+															"className": "Weld",
+															"filePaths": [],
+															"children": []
+														},
+														{
+															"name": "Crest",
+															"className": "Weld",
+															"filePaths": [],
+															"children": []
+														},
+														{
+															"name": "FrontBaseMetal",
+															"className": "Weld",
+															"filePaths": [],
+															"children": []
+														},
+														{
+															"name": "SeatBase",
+															"className": "Weld",
+															"filePaths": [],
+															"children": []
+														},
+														{
+															"name": "Cushion",
+															"className": "Weld",
+															"filePaths": [],
+															"children": []
+														},
+														{
+															"name": "CushionBolts",
+															"className": "Weld",
+															"filePaths": [],
+															"children": []
+														},
+														{
+															"name": "FloorBoard",
+															"className": "Weld",
+															"filePaths": [],
+															"children": []
+														},
+														{
+															"name": "BackBar",
+															"className": "Weld",
+															"filePaths": [],
+															"children": []
+														},
+														{
+															"name": "SurfaceAppearance",
+															"className": "SurfaceAppearance",
+															"filePaths": [],
+															"children": []
+														},
+														{
+															"name": "Mesh",
+															"className": "SpecialMesh",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												},
+												{
+													"name": "FloorBoard",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "SurfaceAppearance",
+															"className": "SurfaceAppearance",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												},
+												{
+													"name": "HandleBar",
+													"className": "Model",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "HandlebarCovers",
+															"className": "MeshPart",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "SurfaceAppearance",
+																	"className": "SurfaceAppearance",
+																	"filePaths": [],
+																	"children": []
+																}
+															]
+														},
+														{
+															"name": "Handlebar",
+															"className": "MeshPart",
+															"filePaths": [],
+															"children": []
+														},
+														{
+															"name": "SteerBase",
+															"className": "MeshPart",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "SurfaceAppearance",
+																	"className": "SurfaceAppearance",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "HeadlightTrim",
+																	"className": "Weld",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "Headlight",
+																	"className": "Weld",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "Handlebar",
+																	"className": "Weld",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "HandlebarCovers",
+																	"className": "Weld",
+																	"filePaths": [],
+																	"children": []
+																}
+															]
+														},
+														{
+															"name": "HeadlightTrim",
+															"className": "MeshPart",
+															"filePaths": [],
+															"children": []
+														},
+														{
+															"name": "Headlight",
+															"className": "MeshPart",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "SpotLight",
+																	"className": "SpotLight",
+																	"filePaths": [],
+																	"children": []
+																}
+															]
+														},
+														{
+															"name": "DriveBar",
+															"className": "MeshPart",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "SurfaceAppearance",
+																	"className": "SurfaceAppearance",
+																	"filePaths": [],
+																	"children": []
+																}
+															]
+														},
+														{
+															"name": "WheelFin",
+															"className": "MeshPart",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "SurfaceAppearance",
+																	"className": "SurfaceAppearance",
+																	"filePaths": [],
+																	"children": []
+																}
+															]
+														},
+														{
+															"name": "FinMetal",
+															"className": "MeshPart",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "SurfaceAppearance",
+																	"className": "SurfaceAppearance",
+																	"filePaths": [],
+																	"children": []
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "Hitbox",
+											"className": "Model",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "Part",
+													"className": "Part",
+													"filePaths": [],
+													"children": []
+												}
+											]
+										}
+									]
 								}
 							],
 							"filePaths": [
@@ -7141,6 +6740,14 @@
 											"children": [],
 											"filePaths": [
 												"Scripts/StarterPlayerScripts/General/VespaController.lua"
+											]
+										},
+										{
+											"name": "OceanController",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Scripts/StarterPlayerScripts/General/OceanController.lua"
 											]
 										}
 									],

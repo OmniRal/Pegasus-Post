@@ -53,7 +53,8 @@ function VespaService.RequestVespa(Player: Player, VespaName: string, Here: CFra
         Here = Root.CFrame * CFrame.new(0, 20, -20)
     end
 
-    local NewVespa = Model:Clone()
+    local NewVespa: Model = Model:Clone()
+    NewVespa:PivotTo(Here :: CFrame)
     NewVespa.Parent = VespaFolder
     
     return "Success"
