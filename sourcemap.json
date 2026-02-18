@@ -6735,19 +6735,19 @@
 											]
 										},
 										{
-											"name": "VespaController",
-											"className": "ModuleScript",
-											"children": [],
-											"filePaths": [
-												"Scripts/StarterPlayerScripts/General/VespaController.lua"
-											]
-										},
-										{
 											"name": "OceanController",
 											"className": "ModuleScript",
 											"children": [],
 											"filePaths": [
 												"Scripts/StarterPlayerScripts/General/OceanController.lua"
+											]
+										},
+										{
+											"name": "VespaController",
+											"className": "ModuleScript",
+											"children": [],
+											"filePaths": [
+												"Scripts/StarterPlayerScripts/General/VespaController.lua"
 											]
 										}
 									],
